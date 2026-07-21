@@ -292,10 +292,10 @@ function renderGeneratorPreview(recompute = true) {
       if (rep === 0) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${getLipidName(l, lang)}</span>`;
       else if (rep === 1) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${l.engName}</span>`;
       else if (rep === 2) content = `<span class="item-code3" style="${k===9?'font-size:0.7rem;':''}">${l.code3}</span>`;
-      else if (rep === 3) content = renderStructureToSVG(l.structure, k===9?45:55, k===9?45:55);
+      else if (rep === 3) content = renderStructureToSVG(l.structure, k===9?52:68, k===9?52:68);
       else if (rep === 4) {
         const cleanCode = l.code3.toLowerCase().replace("(", "_").replace(")", "_").replace(":", "_").replace("/", "_");
-        content = `<img src="assets/structures/${cleanCode}.png" style="width:${k===9?40:48}px;height:${k===9?40:48}px;object-fit:contain;" onerror="this.style.display='none'">`;
+        content = `<img src="assets/structures/${cleanCode}.png" style="width:${k===9?48:62}px;height:${k===9?48:62}px;object-fit:contain;" onerror="this.style.display='none'">`;
       }
       else if (rep === 5) content = `<span class="item-condensed" style="${k===9?'font-size:0.6rem;':''}">${l.formula}</span>`;
       else content = `<span class="item-smiles" style="font-size:0.5rem;word-break:break-all;line-height:1.1;display:block;max-width:65px;">${l.smiles}</span>`;
