@@ -146,10 +146,15 @@ class LipidoDobbleGame {
     card.className = "dobble-card";
     const k = cardData.items.length;
     
+    if (k >= 8) {
+      card.style.width = "320px";
+      card.style.height = "320px";
+    }
+
     let positions = [];
-    if (k === 4) positions = [{x:30,y:30},{x:70,y:30},{x:30,y:70},{x:70,y:70}];
+    if (k === 4) positions = [{x:32,y:32},{x:68,y:32},{x:32,y:68},{x:68,y:68}];
     else if (k === 6) positions = [{x:50,y:25},{x:75,y:40},{x:75,y:70},{x:50,y:80},{x:25,y:70},{x:25,y:40}];
-    else if (k === 8) positions = [{x:50,y:50},{x:50,y:20},{x:78,y:32},{x:82,y:62},{x:62,y:82},{x:38,y:82},{x:18,y:62},{x:22,y:32}];
+    else if (k === 8) positions = [{x:50,y:50},{x:50,y:20},{x:76,y:32},{x:80,y:62},{x:62,y:82},{x:38,y:82},{x:20,y:62},{x:24,y:32}];
     else { // k = 9 (q=8, Mass Spec)
       positions = [{x:50,y:50},{x:50,y:20},{x:78,y:28},{x:85,y:50},{x:78,y:75},{x:50,y:83},{x:22,y:75},{x:15,y:50},{x:22,y:28}];
     }
