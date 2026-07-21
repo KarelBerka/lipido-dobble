@@ -2217,3 +2217,15 @@ function getLipidDesc(lipid, lang = "cs") {
     default:   return lipid.descEn;
   }
 }
+
+/**
+ * Returns sub-array of lipids based on game version.
+ * membrane: 13, signaling: 31, atlas: 57, massspec: 73
+ */
+function getLipidsForVersion(version) {
+  if (version === "membrane") return LIPIDS.slice(0, 13);
+  if (version === "signaling") return LIPIDS.slice(0, 31);
+  if (version === "atlas") return LIPIDS.slice(0, 57);
+  return LIPIDS;
+}
+
