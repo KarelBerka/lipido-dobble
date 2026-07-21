@@ -17,7 +17,7 @@ const TRANSLATIONS = {
     ver_membrane: "Membrána (q=3, 13 lipidů)", ver_signaling: "Signalizace (q=5, 31 lipidů)", ver_atlas: "LIPID MAPS (q=7, 57 lipidů)", ver_massspec: "Mass Spec Nightmare (q=8, 73 druhů)",
     search_placeholder: "Hledat podle názvu, zkratky nebo vzorce...", filter_all: "Všechny",
     btn_print: "Tisknout sadu karet", preview_title: "Náhled karet", btn_regenerate: "Přegenerovat sady",
-    footer_text: "<p>&copy; 2026 Lipido-Dobble. Autor: <a href=\"https://karelberka.github.io\" target=\"_blank\">Karel Berka</a>. Vytvořeno pro výuku lipidomiky.</p>"
+    footer_text: "<p>&copy; 2026 Lipido-Dobble. Součást <a href=\"https://karelberka.github.io/bio-dobble/\" style=\"color: var(--primary); font-weight: 700;\">BioDobble Portal</a>. Autor: <a href=\"https://karelberka.github.io\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">Karel Berka</a>. <a href=\"https://github.com/KarelBerka/lipido-dobble\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">GitHub</a>.</p>"
   },
   en: {
     tab_home: "Home", tab_encyclopedia: "Encyclopedia", tab_game: "Training Game", tab_generator: "Card Generator",
@@ -27,7 +27,7 @@ const TRANSLATIONS = {
     ver_membrane: "Membrane (q=3, 13 lipids)", ver_signaling: "Signaling (q=5, 31 lipids)", ver_atlas: "LIPID MAPS (q=7, 57 lipids)", ver_massspec: "Mass Spec Nightmare (q=8, 73 species)",
     search_placeholder: "Search by name, code, or formula...", filter_all: "All",
     btn_print: "Print Card Deck", preview_title: "Card Preview", btn_regenerate: "Regenerate Decks",
-    footer_text: "<p>&copy; 2026 Lipido-Dobble. Author: <a href=\"https://karelberka.github.io\" target=\"_blank\">Karel Berka</a>. Built for teaching lipidomics.</p>"
+    footer_text: "<p>&copy; 2026 Lipido-Dobble. Part of <a href=\"https://karelberka.github.io/bio-dobble/\" style=\"color: var(--primary); font-weight: 700;\">BioDobble Portal</a>. Author: <a href=\"https://karelberka.github.io\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">Karel Berka</a>. <a href=\"https://github.com/KarelBerka/lipido-dobble\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">GitHub</a>.</p>"
   },
   de: {
     tab_home: "Startseite", tab_encyclopedia: "Enzyklopädie", tab_game: "Trainingsspiel", tab_generator: "Kartengenerator",
@@ -37,7 +37,7 @@ const TRANSLATIONS = {
     ver_membrane: "Membran (q=3, 13 Lipide)", ver_signaling: "Signalwege (q=5, 31 Lipide)", ver_atlas: "LIPID MAPS (q=7, 57 Lipide)", ver_massspec: "Mass Spec Nightmare (q=8, 73 Arten)",
     search_placeholder: "Suchen nach Name, Code oder Formel...", filter_all: "Alle",
     btn_print: "Kartensatz drucken", preview_title: "Kartenvorschau", btn_regenerate: "Decks neu generieren",
-    footer_text: "<p>&copy; 2026 Lipido-Dobble. Autor: Karel Berka.</p>"
+    footer_text: "<p>&copy; 2026 Lipido-Dobble. Teil von <a href=\"https://karelberka.github.io/bio-dobble/\" style=\"color: var(--primary); font-weight: 700;\">BioDobble Portal</a>. Autor: <a href=\"https://karelberka.github.io\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">Karel Berka</a>. <a href=\"https://github.com/KarelBerka/lipido-dobble\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">GitHub</a>.</p>"
   },
   fr: {
     tab_home: "Accueil", tab_encyclopedia: "Encyclopédie", tab_game: "Jeu d'entraînement", tab_generator: "Générateur de cartes",
@@ -47,7 +47,7 @@ const TRANSLATIONS = {
     ver_membrane: "Membrane (q=3, 13 lipides)", ver_signaling: "Signalisation (q=5, 31 lipides)", ver_atlas: "LIPID MAPS (q=7, 57 lipides)", ver_massspec: "Mass Spec Nightmare (q=8, 73 espèces)",
     search_placeholder: "Rechercher par nom...", filter_all: "Tous",
     btn_print: "Imprimer le jeu", preview_title: "Aperçu des cartes", btn_regenerate: "Régénérer",
-    footer_text: "<p>&copy; 2026 Lipido-Dobble. Auteur: Karel Berka.</p>"
+    footer_text: "<p>&copy; 2026 Lipido-Dobble. Fait partie de <a href=\"https://karelberka.github.io/bio-dobble/\" style=\"color: var(--primary); font-weight: 700;\">BioDobble Portal</a>. Auteur: <a href=\"https://karelberka.github.io\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">Karel Berka</a>. <a href=\"https://github.com/KarelBerka/lipido-dobble\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--primary); font-weight: 700; text-decoration: none;\">GitHub</a>.</p>"
   }
 };
 
