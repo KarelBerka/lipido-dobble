@@ -192,6 +192,7 @@ function renderEncyclopedia(filter, query) {
   filtered.forEach(l => {
     const card = document.createElement("div");
     card.className = "lipid-card";
+    const cleanCode = l.code3.toLowerCase().replace("(", "_").replace(")", "_").replace(":", "_").replace("/", "_");
     card.innerHTML = `
       <div class="lipid-header">
         <div class="lipid-title">
@@ -200,14 +201,17 @@ function renderEncyclopedia(filter, query) {
         </div>
         <span class="lipid-badge">${l.code3}</span>
       </div>
-      <div class="lipid-previews">
+      <div class="lipid-previews" style="display: flex; gap: 1rem; justify-content: center; align-items: center; background: rgba(255,255,255,0.7); padding: 0.5rem; border-radius: 8px; border: 1px dashed var(--border-color); margin-bottom: 0.75rem;">
         <div title="Strukturní schéma">${renderStructureToSVG(l.structure, 100, 80)}</div>
+        <div title="3D model (PyMOL)" style="width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;">
+          <img src="assets/structures/${cleanCode}.png" style="width: 100%; height: 100%; object-fit: contain;" onerror="this.style.display='none'">
+        </div>
       </div>
       <div style="font-size: 0.85rem; color: var(--text-muted);">
-        <strong>Třída:</strong> ${l.group} | <strong>Vzorec:</strong> ${l.formula}<br>
+        <strong>Třída:</strong> ${l.groupCz || l.group} | <strong>Vzorec:</strong> ${l.formula}<br>
         <strong>SMILES:</strong> <span style="font-family: monospace; font-size: 0.75rem; word-break: break-all;">${l.smiles}</span>
       </div>
-      <p style="font-size: 0.85rem; line-height: 1.4;">${l.desc}</p>
+      <p style="font-size: 0.85rem; line-height: 1.4; margin-top: 0.5rem;">${getLipidDesc(l, lang)}</p>
     `;
     grid.appendChild(card);
   });
@@ -216,9 +220,22 @@ function renderEncyclopedia(filter, query) {
 function initGenerator() {
   const regenerateBtn = document.getElementById("btn-regenerate-deck");
   const printBtn = document.getElementById("btn-print-deck");
+  const shapeSelect = document.getElementById("set-card-shape");
+  const rotationCheckbox = document.getElementById("set-random-rotation");
+  const diffRepsCheckbox = document.getElementById("set-guarantee-diff-reps");
+  const cheatCheckbox = document.getElementById("set-show-cheat");
 
   if (regenerateBtn) regenerateBtn.addEventListener("click", () => renderGeneratorPreview(true));
   if (printBtn) printBtn.addEventListener("click", () => window.print());
+
+  if (shapeSelect) shapeSelect.addEventListener("change", () => renderGeneratorPreview(false));
+  if (rotationCheckbox) rotationCheckbox.addEventListener("change", () => renderGeneratorPreview(false));
+  if (diffRepsCheckbox) diffRepsCheckbox.addEventListener("change", () => renderGeneratorPreview(true));
+  if (cheatCheckbox) cheatCheckbox.addEventListener("change", () => renderGeneratorPreview(false));
+
+  document.querySelectorAll(".set-rep-toggle").forEach(cb => {
+    cb.addEventListener("change", () => renderGeneratorPreview(true));
+  });
 }
 
 function renderGeneratorPreview(recompute = true) {
@@ -228,9 +245,18 @@ function renderGeneratorPreview(recompute = true) {
   const currentVer = window.currentLipidoVersion || "signaling";
   const q = currentVer === "membrane" ? 3 : (currentVer === "signaling" ? 5 : (currentVer === "atlas" ? 7 : 8));
 
+  // Gather allowed representations
+  const checkedBoxes = document.querySelectorAll(".set-rep-toggle:checked");
+  let allowedReps = Array.from(checkedBoxes).map(cb => parseInt(cb.value));
+  if (allowedReps.length === 0) {
+    allowedReps = [0, 1, 2, 3, 4, 5];
+    document.querySelectorAll(".set-rep-toggle").forEach((cb, idx) => { if (idx < 6) cb.checked = true; });
+  }
+
   if (recompute || generatedDeck.length === 0) {
     const lipids = getLipidsForVersion(currentVer);
-    generatedDeck = generateDobbleDeck(lipids, q, true);
+    const guaranteeDiff = document.getElementById("set-guarantee-diff-reps")?.checked !== false;
+    generatedDeck = generateDobbleDeck(lipids, q, guaranteeDiff, allowedReps);
   }
 
   grid.innerHTML = "";
@@ -243,6 +269,12 @@ function renderGeneratorPreview(recompute = true) {
   else if (k === 8) positions = [{x:50,y:50},{x:50,y:20},{x:78,y:32},{x:82,y:62},{x:62,y:82},{x:38,y:82},{x:18,y:62},{x:22,y:32}];
   else positions = [{x:50,y:50},{x:50,y:20},{x:78,y:28},{x:85,y:50},{x:78,y:75},{x:50,y:83},{x:22,y:75},{x:15,y:50},{x:22,y:28}];
 
+  const isSquare = document.getElementById("set-card-shape")?.value === "square";
+  const rotateEnabled = document.getElementById("set-random-rotation")?.checked !== false;
+  const showCheat = document.getElementById("set-show-cheat")?.checked === true;
+
+  grid.className = isSquare ? "cards-grid shape-square" : "cards-grid shape-circle";
+
   generatedDeck.forEach((cardData, idx) => {
     const card = document.createElement("div");
     card.className = "dobble-card";
@@ -252,16 +284,21 @@ function renderGeneratorPreview(recompute = true) {
       const pos = positions[posIdx] || {x:50,y:50};
       const l = item.symbol;
       const rep = item.repType;
-      const rot = Math.floor(Math.random() * 360);
+      const rot = rotateEnabled ? Math.floor(Math.random() * 360) : 0;
       const scale = k === 9 ? 0.7 : 0.85;
 
       let content = "";
-      if (rep === 0) content = `<span class="item-text" style="${k===9?'font-size:0.65rem;':''}">${getLipidName(l, lang)}</span>`;
-      else if (rep === 1) content = `<span class="item-text" style="${k===9?'font-size:0.65rem;':''}">${l.engName}</span>`;
-      else if (rep === 2) content = `<span class="item-code3" style="${k===9?'font-size:0.75rem;':''}">${l.code3}</span>`;
-      else if (rep === 3) content = `<span class="item-badge">${l.group}</span>`;
-      else if (rep === 4) content = renderStructureToSVG(l.structure, k===9?45:55, k===9?45:55);
-      else content = `<span class="item-condensed" style="${k===9?'font-size:0.65rem;':''}">${l.formula}</span>`;
+      // 0: Local Name, 1: Eng Name, 2: Code3, 3: 2D, 4: 3D, 5: Formula, 6: SMILES
+      if (rep === 0) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${getLipidName(l, lang)}</span>`;
+      else if (rep === 1) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${l.engName}</span>`;
+      else if (rep === 2) content = `<span class="item-code3" style="${k===9?'font-size:0.7rem;':''}">${l.code3}</span>`;
+      else if (rep === 3) content = renderStructureToSVG(l.structure, k===9?45:55, k===9?45:55);
+      else if (rep === 4) {
+        const cleanCode = l.code3.toLowerCase().replace("(", "_").replace(")", "_").replace(":", "_").replace("/", "_");
+        content = `<img src="assets/structures/${cleanCode}.png" style="width:${k===9?40:48}px;height:${k===9?40:48}px;object-fit:contain;" onerror="this.style.display='none'">`;
+      }
+      else if (rep === 5) content = `<span class="item-condensed" style="${k===9?'font-size:0.6rem;':''}">${l.formula}</span>`;
+      else content = `<span class="item-smiles" style="font-size:0.5rem;word-break:break-all;line-height:1.1;display:block;max-width:65px;">${l.smiles}</span>`;
 
       itemsHTML += `
         <div class="card-item" style="--x: ${pos.x}%; --y: ${pos.y}%; --scale: ${scale}; --rot: ${rot}deg;">
@@ -269,6 +306,11 @@ function renderGeneratorPreview(recompute = true) {
         </div>
       `;
     });
+
+    if (showCheat) {
+      const listNames = cardData.items.map(it => it.symbol.code3).join(", ");
+      itemsHTML += `<span style="position: absolute; top: 8px; left: 8px; font-size: 0.5rem; color: var(--text-muted); max-width: 80%; text-align: left; pointer-events: none;">${listNames}</span>`;
+    }
 
     itemsHTML += `<span style="position: absolute; bottom: 8px; left: 0; right: 0; font-size: 0.6rem; text-align: center; color: var(--text-muted);">Karta ${idx+1}</span>`;
     card.innerHTML = itemsHTML;

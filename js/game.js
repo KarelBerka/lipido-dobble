@@ -171,13 +171,16 @@ class LipidoDobbleGame {
       let content = "";
       let classes = "card-item";
 
-      if (rep === 0) content = `<span class="item-text" style="${k===9?'font-size:0.7rem;':''}">${getLipidName(s, lang)}</span>`;
-      else if (rep === 1) content = `<span class="item-text" style="${k===9?'font-size:0.7rem;':''}">${s.engName}</span>`;
-      else if (rep === 2) content = `<span class="item-code3" style="${k===9?'font-size:0.75rem;':''}">${s.code3}</span>`;
-      else if (rep === 3) content = `<span class="item-badge">${s.group}</span>`;
-      else if (rep === 4) content = renderStructureToSVG(s.structure, k===9?45:60, k===9?45:60);
-      else if (rep === 5) content = `<span class="item-condensed">${s.formula}</span>`;
-      else content = `<span class="item-smiles" style="font-size:0.65rem;">${s.smiles}</span>`;
+      if (rep === 0) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${getLipidName(s, lang)}</span>`;
+      else if (rep === 1) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${s.engName}</span>`;
+      else if (rep === 2) content = `<span class="item-code3" style="${k===9?'font-size:0.7rem;':''}">${s.code3}</span>`;
+      else if (rep === 3) content = renderStructureToSVG(s.structure, k===9?45:55, k===9?45:55);
+      else if (rep === 4) {
+        const cleanCode = s.code3.toLowerCase().replace("(", "_").replace(")", "_").replace(":", "_").replace("/", "_");
+        content = `<img src="assets/structures/${cleanCode}.png" style="width:${k===9?40:48}px;height:${k===9?40:48}px;object-fit:contain;" onerror="this.style.display='none'">`;
+      }
+      else if (rep === 5) content = `<span class="item-condensed" style="${k===9?'font-size:0.6rem;':''}">${s.formula}</span>`;
+      else content = `<span class="item-smiles" style="font-size:0.5rem;word-break:break-all;line-height:1.1;display:block;max-width:65px;">${s.smiles}</span>`;
 
       const itemEl = document.createElement("div");
       itemEl.className = classes;

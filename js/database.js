@@ -179,7 +179,7 @@ const LIPIDS = [
     descEn: "Most abundant phospholipid in the outer leaflet of eukaryotic plasma membranes.",
     descDe: "Häufigstes Phospholipid in der äußeren Schicht eukaryotischer Plasmamembranen.",
     descFr: "Phospholipide le plus abondant du feuillet externe des membranes plasmiques eucaryotes.",
-    smiles: "CC[N+](C)(C)CCOP(=O)([O-])OCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 30, label: "N⁺(CH₃)₃", type: "N" },
@@ -213,7 +213,7 @@ const LIPIDS = [
     descEn: "Abundant inner-leaflet membrane lipid promoting negative membrane curvature and fusion.",
     descDe: "Phospholipid der inneren Membranschicht; fördert die Membrankrümmung.",
     descFr: "Phospholipide abondant du feuillet interne favorisant la courbure membranaire.",
-    smiles: "H2NCCOP(=O)(O)OCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 30, label: "H₃N⁺", type: "N" },
@@ -247,7 +247,7 @@ const LIPIDS = [
     descEn: "Anionic inner-leaflet phospholipid; exteriorized during apoptosis as an 'eat-me' signal for phagocytes.",
     descDe: "Anionisches Phospholipid; dient bei Apoptose an der Außenmembran als Signal für Phagozyten.",
     descFr: "Phospholipide anionique du feuillet interne; exposé à l'extérieur lors de l'apoptose.",
-    smiles: "C(C(C(=O)O)N)OP(=O)(O)OCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 12, y: 20, label: "COO⁻", type: "O" },
@@ -282,7 +282,7 @@ const LIPIDS = [
     descEn: "Acidic glycerophospholipid with myo-inositol headgroup; precursor to phosphoinositide second messengers.",
     descDe: "Saures Phospholipid mit Inositol-Kopfgruppe; Vorläufer für Inositol-Second-Messenger.",
     descFr: "Glycérophospholipide acide avec tête inositol; précurseur de phosphoinositides signalétiques.",
-    smiles: "C1C(C(C(C(C1O)O)O)OP(=O)(O)OCC(COC(=O)R)OC(=O)R)O",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "Inositol", type: "C" },
@@ -314,7 +314,7 @@ const LIPIDS = [
     descEn: "Dominant sphingolipid of myelin sheaths and plasma membranes containing phosphocholine.",
     descDe: "Haupt-Sphingolipid von Myelinscheiden und Plasmamembranen mit Phosphocholin-Kopfgruppe.",
     descFr: "Sphingolipide majeur de la gaine de myéline et des membranes plasmiques.",
-    smiles: "CCCCCCCCCCCCCC=CC(C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)R)O",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 25, label: "Cholin-P", type: "N" },
@@ -344,7 +344,7 @@ const LIPIDS = [
     descEn: "Simplest glycerophospholipid and central intermediate in phospholipid and TAG biosynthesis.",
     descDe: "Einfachstes Glycerophospholipid und zentrales Zwischenprodukt der Lipidsynthese.",
     descFr: "Le plus simple des glycérophospholipides et intermédiaire central de la biosynthèse lipidique.",
-    smiles: "OP(=O)(O)OCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "HO-P-OH", type: "P" },
@@ -375,7 +375,7 @@ const LIPIDS = [
     descEn: "Dimeric phospholipid with 4 acyl chains restricted to inner mitochondrial membrane.",
     descDe: "Dimeres Phospholipid mit 4 Acylketten in der inneren Mitochondrienmembran.",
     descFr: "Phospholipide dimérique à 4 chaînes d'acyle exclusif à la membrane mitochondriale interne.",
-    smiles: "RCOOCC(COP(=O)(O)OCC(O)COP(=O)(O)OCC(COC(=O)R)OC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 10, y: 30, label: "PA1", type: "P" },
@@ -440,7 +440,7 @@ const LIPIDS = [
     descEn: "Major glycosphingolipid of nervous system myelin sheaths produced by oligodendrocytes.",
     descDe: "Glykosphingolipid der Myelinscheiden im zentralen Nervensystem.",
     descFr: "Glycosphingolipide majeur du système nerveux et des gaines de myéline.",
-    smiles: "CCCCCCCCCCCCCC=CC(C(COC1C(C(C(C(O1)CO)O)O)O)NC(=O)R)O",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 30, label: "Galaktóza", type: "O" },
@@ -507,7 +507,7 @@ const LIPIDS = [
     descEn: "Membrane phosphoinositide cleaved by Phospholipase C into IP3 and DAG.",
     descDe: "Membran-Phosphoinositid, das von Phospholipase C in IP3 und DAG gespalten wird.",
     descFr: "Phosphoinositide membranaire clivé par la phospholipase C en IP3 et DAG.",
-    smiles: "C1C(C(C(C(C1OP(=O)(O)O)OP(=O)(O)O)O)OP(=O)(O)OCC(COC(=O)R)OC(=O)R)O",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(OP(=O)(O)O)C(OP(=O)(O)O)C(O)C1O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 25, label: "PO₄²⁻", type: "P" },
@@ -567,7 +567,7 @@ const LIPIDS = [
     descEn: "Lipid second messenger staying in the membrane to activate Protein Kinase C (PKC).",
     descDe: "Lipid-Second-Messenger, der die Proteinkinase C (PKC) aktiviert.",
     descFr: "Second messager lipidique membranaire activant la protéine kinase C (PKC).",
-    smiles: "OCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(CO)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 50, label: "HO-CH₂", type: "O" },
@@ -597,7 +597,7 @@ const LIPIDS = [
     descEn: "Potent extracellular signaling lyso-phospholipid targeting G-protein coupled receptors.",
     descDe: "Bioaktives Lysophospholipid, das Proliferation und Migration stimuliert.",
     descFr: "Lysophospholipide bioactif stimulant la prolifération via des récepteurs Couplés aux Protéines G.",
-    smiles: "OP(=O)(O)OCC(CO)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(O)COP(=O)(O)O",
     structure: {
       atoms: [
         { x: 15, y: 40, label: "PO₄²⁻", type: "P" },
@@ -625,7 +625,7 @@ const LIPIDS = [
     descEn: "Structural backbone of complex sphingolipids and key pro-apoptotic signal intermediate.",
     descDe: "Grundstruktur komplexer Sphingolipide und pro-apoptotischer Signalstoff.",
     descFr: "Squelette de base des sphingolipides complexes et médiateur pro-apoptotique.",
-    smiles: "CCCCCCCCCCCCCC=CC(C(CO)NC(=O)R)O",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 40, label: "HO-CH₂", type: "O" },
@@ -849,7 +849,7 @@ const LIPIDS = [
     descEn: "Potent ether-phospholipid mediator of inflammation, anaphylaxis, and platelet aggregation.",
     descDe: "Ether-Phospholipid-Mediator bei Anaphylaxie und Blutgerinnung.",
     descFr: "Éther-phospholipide médiateur de l'inflammation et de l'anaphylaxie.",
-    smiles: "CCCCCC...OCC(COC(=O)C)OP(=O)([O-])OCC[N+](C)(C)C",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(C)=O",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "Cholin-P", type: "N" },
@@ -1158,7 +1158,7 @@ const LIPIDS = [
     descEn: "Primary energy storage neutral lipid stored in adipose tissue lipid droplets.",
     descDe: "Hauptspeicherfett im Fettgewebe.",
     descFr: "Lipide neutre de réserve énergétique majeure stocké dans les adipocytes.",
-    smiles: "RCOOCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 25, y: 20, label: "O-CO-R1", type: "O" },
@@ -1185,7 +1185,7 @@ const LIPIDS = [
     descEn: "Digestive product of triacylglycerols generated by pancreatic lipase.",
     descDe: "Verdauungsprodukt von Fetten im Darm.",
     descFr: "Produit de la digestion des triglycérides par la lipase pancréatique.",
-    smiles: "OCC(O)COC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(O)CO",
     structure: {
       atoms: [
         { x: 20, y: 40, label: "HO-CH₂", type: "O" },
@@ -1212,7 +1212,7 @@ const LIPIDS = [
     descEn: "Precursor to neutral glycosphingolipids; accumulates in Gaucher disease.",
     descDe: "Vorläufer komplexer Glykosphingolipide; akkumuliert bei Morbus Gaucher.",
     descFr: "Précurseur des glycosphingolipides complexes; s'accumule dans la maladie de Gaucher.",
-    smiles: "CCCCCCCCCCCCCC=CC(C(COC1C(C(C(C(O1)CO)O)O)O)NC(=O)R)O",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 35, label: "Glukóza", type: "O" },
@@ -1238,7 +1238,7 @@ const LIPIDS = [
     descEn: "Neutral glycosphingolipid with lactose headgroup precursor to gangliosides.",
     descDe: "Neutraler Glykosphingolipid; Vorläufer von Gangliosiden.",
     descFr: "Glycosphingolipide neutre précurseur des gangliosides.",
-    smiles: "Gal-Glc-Ceramide",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "Gal", type: "O" },
@@ -1265,7 +1265,7 @@ const LIPIDS = [
     descEn: "Acidic sialic-acid-containing glycosphingolipid; receptor for cholera toxin.",
     descDe: "Sialinsäurehaltiges Glykosphingolipid; Cholera-Toxin-Rezeptor.",
     descFr: "Glycosphingolipide acide à acide sialique; récepteur de la toxine cholérique.",
-    smiles: "GM1-oligosaccharide-Ceramide",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 20, label: "Sia (purple)", type: "N" },
@@ -1292,7 +1292,7 @@ const LIPIDS = [
     descEn: "Simplest ganglioside modulating insulin receptor activity.",
     descDe: "Einfachstes Gangliosid zur Regulation des Insulinrezeptors.",
     descFr: "Le plus simple des gangliosides régulant le récepteur de l'insuline.",
-    smiles: "Neu5Ac-Gal-Glc-Ceramide",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "Sia", type: "N" },
@@ -1319,7 +1319,7 @@ const LIPIDS = [
     descEn: "Key phospholipid of bacterial membranes and pulmonary surfactant.",
     descDe: "Phospholipid bakterieller Membranen und des Lungensurfactants.",
     descFr: "Phospholipide majeur des bactéries et du surfactant pulmonaire.",
-    smiles: "OCC(O)COP(=O)(O)OCC(COC(=O)R)OC(=O)R",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(O)CO)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "Glycerol-head", type: "O" },
@@ -1373,7 +1373,7 @@ const LIPIDS = [
     descEn: "Lipophilic electron carrier in the mitochondrial respiratory chain.",
     descDe: "Lipophiler Elektronenträger in der inneren Mitochondrienmembran.",
     descFr: "Transporteur d'électrons lipophile de la chaîne respiratoire mitochondriale.",
-    smiles: "CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC...",
+    smiles: "CC1=C(C(=O)C(=C(C1=O)OC)OC)CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C",
     structure: {
       atoms: [
         { x: 20, y: 40, label: "Benzochinon", type: "O" },
@@ -1614,7 +1614,7 @@ const LIPIDS = [
     descEn: "Hydrophobic anchor of lipopolysaccharide (LPS) inducing immune response via TLR4.",
     descDe: "Endotoxin-Komponente von Gram-negativen Bakterien (LPS-Anker).",
     descFr: "Ancre hydrophobe du lipopolysaccharide (LPS) provoquant le choc septique via TLR4.",
-    smiles: "Disaccharide-Phosphates-HexaAcyl",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 15, y: 35, label: "P-GlcN-GlcN-P", type: "N" },
@@ -1667,7 +1667,7 @@ const LIPIDS = [
     descEn: "14-membered macrolide polyketide antibiotic inhibiting bacterial ribosome 50S subunit.",
     descDe: "Makrolid-Antibiotikum zur Hemmung der bakteriellen Proteinsynthese.",
     descFr: "Antibiotique macrolide inhibant la sous-unité ribosomique 50S.",
-    smiles: "14-ring-Macrolide-Desosamine-Cladinose",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 40, y: 40, label: "14-Makrolakton", type: "O" },
@@ -1696,7 +1696,7 @@ const LIPIDS = [
     descEn: "Prototypical fluid membrane phosphatidylcholine species (POPC).",
     descDe: "Prototypisches Phosphatidylcholin der Plasmamembran.",
     descFr: "Espèce prototypique de phosphatidylcholine membranaire.",
-    smiles: "PC(16:0/18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "Cholin-P", type: "N" },
@@ -1723,7 +1723,7 @@ const LIPIDS = [
     descEn: "Stearoyl-arachidonoyl PC species providing arachidonate for signaling.",
     descDe: "Arachidonsäurereiche PC-Spezies.",
     descFr: "Espèce PC riche en arachidonate en position sn-2.",
-    smiles: "PC(18:0/20:4)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "Cholin-P", type: "N" },
@@ -1750,7 +1750,7 @@ const LIPIDS = [
     descEn: "Common phosphatidylethanolamine species (POPE) in lipidomics.",
     descDe: "Häufige PE-Spezies (POPE) in der Lipidomik.",
     descFr: "Espèce PE commune (POPE) en lipidomique.",
-    smiles: "PE(16:0/18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCCN)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "Ethanolamin-P", type: "N" },
@@ -1777,7 +1777,7 @@ const LIPIDS = [
     descEn: "Plasmalogen PE species with vinyl-ether linkage and DHA tail abundant in brain.",
     descDe: "Ether-Plasmalogen im Gehirn mit DHA.",
     descFr: "Plasmalogène PE du cerveau à liaison vinyl-éther et DHA.",
-    smiles: "PE-Plasmalogen",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "PE-P", type: "N" },
@@ -1804,7 +1804,7 @@ const LIPIDS = [
     descEn: "Dominant phosphatidylserine species in mammalian neuronal membranes.",
     descDe: "Dominante PS-Spezies in Säugetiergehirnen.",
     descFr: "Espèce majeure de PS dans les neurones de mammifères.",
-    smiles: "PS(18:0/18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC(N)C(=O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "Serin-P", type: "N" },
@@ -1831,7 +1831,7 @@ const LIPIDS = [
     descEn: "Phosphatidylinositol species analyzed in negative ion LC-MS lipidomics.",
     descDe: "PI-Spezies in der negativen LC-MS-Analytik.",
     descFr: "Espèce PI mesurée en mode ionique négatif en spectrométrie de masse.",
-    smiles: "PI(16:0/18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "Inositol-P", type: "P" },
@@ -1858,7 +1858,7 @@ const LIPIDS = [
     descEn: "PI3-Kinase product key to Akt/mTOR survival pathway.",
     descDe: "PI3K-Produkt in der Akt/mTOR-Signalkaskade.",
     descFr: "Produit de la PI3K activant la voie Akt/mTOR.",
-    smiles: "PIP3 species",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "Inositol-3P", type: "P" },
@@ -1885,7 +1885,7 @@ const LIPIDS = [
     descEn: "Most abundant plasma membrane sphingomyelin species.",
     descDe: "Häufigste Sphingomyelin-Spezies der Membran.",
     descFr: "Espèce de sphingomyéline la plus abondante.",
-    smiles: "SM(d18:1/16:0)",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "PC-head", type: "N" },
@@ -1912,7 +1912,7 @@ const LIPIDS = [
     descEn: "Very long chain SM species containing nervonic acid (24:1).",
     descDe: "Sehr langkettige SM-Spezies mit Nervonsäure.",
     descFr: "Espèce SM à très longue chaîne avec acide nervonique.",
-    smiles: "SM(d18:1/24:1)",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "PC-head", type: "N" },
@@ -1939,7 +1939,7 @@ const LIPIDS = [
     descEn: "Pro-apoptotic C16-ceramide produced by CerS5/CerS6.",
     descDe: "Pro-apoptotisches C16-Ceramid.",
     descFr: "C16-céramide pro-apoptotique produit par CerS5/6.",
-    smiles: "Cer(d18:1/16:0)",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "OH", type: "O" },
@@ -1966,7 +1966,7 @@ const LIPIDS = [
     descEn: "Very long chain C24-ceramide produced by CerS2.",
     descDe: "Sehr langkettiges C24-Ceramid aus CerS2.",
     descFr: "C24-céramide à très longue chaîne produit par CerS2.",
-    smiles: "Cer(d18:1/24:0)",
+    smiles: "CCCCCCCCCCCCCC=CC(O)C(CO)NC(=O)CCCCCCCCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "OH", type: "O" },
@@ -1993,7 +1993,7 @@ const LIPIDS = [
     descEn: "Specific triacylglycerol species (POO) common in lipidomics.",
     descDe: "Spezifische TAG-Spezies (POO) in der MS-Analytik.",
     descFr: "Espèce spécifique de triglycéride (POO).",
-    smiles: "TAG(16:0/18:1/18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 20, label: "16:0", type: "C" },
@@ -2021,7 +2021,7 @@ const LIPIDS = [
     descEn: "Lysophosphatidylcholine species prevalent in blood plasma.",
     descDe: "Lysophosphatidylcholin-Spezies im Blutplasma.",
     descFr: "Lysophosphatidylcholine majeure du plasma sanguin.",
-    smiles: "LPC(16:0)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 40, label: "Cholin-P", type: "N" },
@@ -2048,7 +2048,7 @@ const LIPIDS = [
     descEn: "Lysophosphatidylethanolamine product of Phospholipase A2.",
     descDe: "LPE-Spezies aus der Phospholipase A2-Spaltung.",
     descFr: "Lysophosphatidyléthanolamine produite par la PLA2.",
-    smiles: "LPE(18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCCN)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 40, label: "PE-P", type: "N" },
@@ -2075,7 +2075,7 @@ const LIPIDS = [
     descEn: "Cholesteryl ester species transported inside core of LDL and HDL lipoproteins.",
     descDe: "Cholesterinester im Kern von LDL und HDL.",
     descFr: "Ester de cholestérol transporté au cœur des lipoprotéines LDL et HDL.",
-    smiles: "CE(18:1)",
+    smiles: "CCCCCCCC=CCCCCCCCC(=O)OC1CCC2(C)C3CCC4(C)C(CCC4C3CCC2C1)C(C)CCCC(C)C",
     structure: {
       atoms: [
         { x: 30, y: 40, label: "Cholesterol Nucleus", type: "C" },
@@ -2101,7 +2101,7 @@ const LIPIDS = [
     descEn: "Specific cardiolipin species with 4 acyl chains analyzed by tandem MS/MS.",
     descDe: "Spezifische Cardiolipin-Molekülspezies in der MS/MS-Analytik.",
     descFr: "Espèce spécifique de cardiolipine à 4 chaînes d'acyle.",
-    smiles: "CL(16:0/18:1/16:0/18:1)",
+    smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
     structure: {
       atoms: [
         { x: 20, y: 30, label: "P1", type: "P" },
@@ -2118,7 +2118,7 @@ const LIPIDS = [
 /**
  * Render standard 2D chemical structure to SVG string.
  */
-function renderStructureToSVG(structure, width = 140, height = 140, bondColor = "#2D3748", bondWidth = 2.5) {
+function renderStructureToSVG(structure, width = 140, height = 140, bondColor = "#000000", bondWidth = 2.0) {
   if (!structure || !structure.atoms || structure.atoms.length === 0) {
     return `<svg width="${width}" height="${height}"></svg>`;
   }
@@ -2178,13 +2178,18 @@ function renderStructureToSVG(structure, width = 140, height = 140, bondColor = 
     const cleanLabel = atom.label ? atom.label.replace(/[\u2080-\u2089]/g, m => String.fromCharCode(m.charCodeAt(0) - 0x2080 + 48)) : "";
     const isAliphaticCarbon = atom.label && /^(CH\d*|H\d*C|C)$/i.test(cleanLabel);
     if (atom.label && !isAliphaticCarbon) {
-      const style = ATOM_STYLES[atom.type] || { color: bondColor, bg: "#FFFFFF", radius: 8 };
+      let color = "#000000";
+      if (atom.type === "O") color = "#d32f2f"; // Wikipedia Red
+      if (atom.type === "N") color = "#1976d2"; // Wikipedia Blue
+      if (atom.type === "S") color = "#d97706"; // Wikipedia Gold
+      if (atom.type === "P") color = "#7b1fa2"; // Wikipedia Purple
+
       let labelWidth = Math.max(16, atom.label.length * 7.5);
       let labelHeight = 13;
       
       svgContent += `
-        <rect x="${atom.x - labelWidth/2}" y="${atom.y - labelHeight/2 - 1}" width="${labelWidth}" height="${labelHeight * 1.3}" fill="#FFFFFF" rx="4" ry="4"/>
-        <text x="${atom.x}" y="${atom.y + 1}" font-family="'Outfit', system-ui, sans-serif" font-size="11px" font-weight="bold" fill="${style.color}" text-anchor="middle" dominant-baseline="middle">${atom.label}</text>
+        <rect x="${atom.x - labelWidth/2}" y="${atom.y - labelHeight/2 - 1}" width="${labelWidth}" height="${labelHeight * 1.3}" fill="#FFFFFF" />
+        <text x="${atom.x}" y="${atom.y + 1}" font-family="Arial, Helvetica, sans-serif" font-size="11px" font-weight="normal" fill="${color}" text-anchor="middle" dominant-baseline="middle">${atom.label}</text>
       `;
     }
   });
