@@ -2131,17 +2131,21 @@ function renderStructureToSVG(structure, width = 140, height = 140, bondColor = 
     const isAliphaticCarbon = atom.label && /^(CH\d*|H\d*C|C)$/i.test(cleanLabel);
     const hasVisibleLabel = atom.label && !isAliphaticCarbon;
     
-    const padding = hasVisibleLabel ? 12 : 3;
-    if (atom.x - padding < minX) minX = atom.x - padding;
-    if (atom.x + padding > maxX) maxX = atom.x + padding;
-    if (atom.y - padding < minY) minY = atom.y - padding;
-    if (atom.y + padding > maxY) maxY = atom.y + padding;
+    // Calculate padding dynamically to avoid unnecessary empty margin
+    const labelWidth = atom.label ? atom.label.length * 7.5 : 0;
+    const paddingX = hasVisibleLabel ? Math.max(labelWidth / 2 + 1, 4) : 2;
+    const paddingY = hasVisibleLabel ? 6 : 2;
+    
+    if (atom.x - paddingX < minX) minX = atom.x - paddingX;
+    if (atom.x + paddingX > maxX) maxX = atom.x + paddingX;
+    if (atom.y - paddingY < minY) minY = atom.y - paddingY;
+    if (atom.y + paddingY > maxY) maxY = atom.y + paddingY;
   });
 
   const contentW = maxX - minX || 10;
   const contentH = maxY - minY || 10;
   
-  const margin = 10;
+  const margin = 3; // Tight margin to enlarge the molecule
   const vbX = minX - margin;
   const vbY = minY - margin;
   const vbW = contentW + 2 * margin;
