@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function initTheme() {
   const themeToggle = document.getElementById("theme-toggle");
-  const savedTheme = localStorage.getItem("lipido_dobble_theme") || "dark";
+  const savedTheme = localStorage.getItem("lipido_dobble_theme") || "light";
   document.documentElement.setAttribute("data-theme", savedTheme);
   
   if (themeToggle) {
