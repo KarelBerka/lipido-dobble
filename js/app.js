@@ -277,7 +277,7 @@ function renderGeneratorPreview(recompute = true) {
 
   generatedDeck.forEach((cardData, idx) => {
     const card = document.createElement("div");
-    card.className = "dobble-card";
+    card.className = `dobble-card ${isSquare ? 'square' : ''}`;
 
     let itemsHTML = "";
     cardData.items.forEach((item, posIdx) => {
