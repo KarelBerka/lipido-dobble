@@ -100,18 +100,28 @@
             <h3 style="margin-bottom: 0.5rem;">Nastavení tiskovin</h3>
             
             <div class="setting-group" style="display: flex; flex-direction: column; gap: 0.25rem;">
-              <label for="set-card-shape" style="font-weight: 600; font-size: 0.9rem;">Tvar karet</label>
+              <label for="set-card-shape" style="font-weight: 600; font-size: 0.9rem;" data-translate="card_shape_label">Tvar karet</label>
               <select id="set-card-shape" style="background: var(--bg-app); border: 1px solid var(--border-color); color: var(--text-main); padding: 6px 10px; border-radius: 8px; font-family: inherit;">
-                <option value="circle">Kulaté (Tradiční Dobble)</option>
-                <option value="square">Čtvercové (Snazší stříhání)</option>
+                <option value="square" selected data-translate="shape_square">Čtvercové (Snazší stříhání)</option>
+                <option value="circle" data-translate="shape_circle">Kulaté (Tradiční Dobble)</option>
+              </select>
+            </div>
+
+            <div class="setting-group" style="display: flex; flex-direction: column; gap: 0.25rem;">
+              <label for="set-print-layout" style="font-weight: 600; font-size: 0.9rem;" data-translate="print_layout_label">Počet karet na stránku (A4)</label>
+              <select id="set-print-layout" style="background: var(--bg-app); border: 1px solid var(--border-color); color: var(--text-main); padding: 6px 10px; border-radius: 8px; font-family: inherit;">
+                <option value="6" data-translate="layout_6">6 karet (Velké - průměr 95 mm)</option>
+                <option value="4" data-translate="layout_4">4 karty (Obří - průměr 100 mm)</option>
+                <option value="8" data-translate="layout_8">8 karet (Střední - průměr 71 mm)</option>
+                <option value="12" data-translate="layout_12">12 karet (Malé - průměr 66 mm)</option>
               </select>
             </div>
 
             <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer; align-items: flex-start;">
-              <input type="checkbox" id="set-random-rotation" checked>
+              <input type="checkbox" id="set-random-rotation">
               <div class="checkbox-label-text">
-                <span class="checkbox-title" style="font-weight: 600; font-size: 0.9rem; display: block;">Náhodně otáčet symboly</span>
-                <span class="checkbox-sub" style="font-size: 0.75rem; color: var(--text-muted); display: block;">Zvyšuje obtížnost otáčením textů a vzorců.</span>
+                <span class="checkbox-title" style="font-weight: 600; font-size: 0.9rem; display: block;" data-translate="rotate_symbols_label">Náhodně otáčet symboly</span>
+                <span class="checkbox-sub" style="font-size: 0.75rem; color: var(--text-muted); display: block;" data-translate="rotate_symbols_sub">Zvyšuje obtížnost otáčením textů a vzorců.</span>
               </div>
             </label>
 

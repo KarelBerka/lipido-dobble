@@ -143,7 +143,9 @@ class LipidoDobbleGame {
 
   renderCardElement(cardData) {
     const card = document.createElement("div");
-    card.className = "dobble-card";
+    const shapeElem = document.getElementById("set-card-shape");
+    const isSquare = shapeElem ? shapeElem.value === "square" : true;
+    card.className = `dobble-card ${isSquare ? 'square' : ''}`;
     const k = cardData.items.length;
     
     if (k >= 8) {
@@ -160,12 +162,14 @@ class LipidoDobbleGame {
     }
 
     const lang = window.currentLang || "cs";
+    const rotateElem = document.getElementById("set-random-rotation");
+    const rotateEnabled = rotateElem ? rotateElem.checked === true : false;
 
     cardData.items.forEach((item, posIdx) => {
       const pos = positions[posIdx] || {x:50,y:50};
       const s = item.symbol;
       const rep = item.repType;
-      const rot = Math.floor(Math.random() * 360);
+      const rot = rotateEnabled ? Math.floor(Math.random() * 360) : 0;
       const scale = k === 9 ? 0.7 : 0.85;
 
       let content = "";

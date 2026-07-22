@@ -121,3 +121,120 @@ main { flex-grow: 1; max-width: 1200px; width: 100%; margin: 0 auto; padding: 2r
 
 footer { text-align: center; padding: 2rem; border-top: 1px solid var(--border-color); color: var(--text-muted); font-size: 0.85rem; margin-top: auto; }
 footer a { color: var(--primary); text-decoration: none; font-weight: 700; }
+
+/* --- Print Stylesheet --- */
+@media print {
+  @page {
+    margin: 5mm !important;
+    size: portrait;
+  }
+  
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  header, 
+  .theme-toggle-btn, 
+  .generator-settings, 
+  .generator-preview-title,
+  footer {
+    display: none !important;
+  }
+  
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  .tab-content {
+    display: none !important;
+  }
+  
+  #generator-tab {
+    display: block !important;
+  }
+  
+  .generator-layout {
+    display: block !important;
+  }
+  
+  .generator-preview {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+    border: none !important;
+  }
+  
+  .cards-grid {
+    display: grid !important;
+    justify-content: center !important;
+    align-content: center !important;
+    page-break-inside: auto;
+  }
+  
+  /* 4 cards layout (2x2, 100mm) */
+  .cards-grid[data-layout="4"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0px !important;
+  }
+  .cards-grid[data-layout="4"] .dobble-card {
+    width: 100mm !important;
+    height: 100mm !important;
+  }
+  
+  /* 6 cards layout (2x3, 95mm) */
+  .cards-grid[data-layout="6"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0px !important;
+  }
+  .cards-grid[data-layout="6"] .dobble-card {
+    width: 95mm !important;
+    height: 95mm !important;
+  }
+  
+  /* 8 cards layout (2x4, 71mm) */
+  .cards-grid[data-layout="8"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0px !important;
+  }
+  .cards-grid[data-layout="8"] .dobble-card {
+    width: 71mm !important;
+    height: 71mm !important;
+  }
+  
+  /* 12 cards layout (3x4, 66mm) */
+  .cards-grid[data-layout="12"] {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0px !important;
+  }
+  .cards-grid[data-layout="12"] .dobble-card {
+    width: 66mm !important;
+    height: 66mm !important;
+  }
+  
+  .dobble-card {
+    border: 1px solid #000000 !important;
+    page-break-inside: avoid !important;
+    page-break-after: auto;
+    margin: 0 auto !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .dobble-card::before {
+    content: "" !important;
+    position: absolute !important;
+    top: -4px !important;
+    left: -4px !important;
+    right: -4px !important;
+    bottom: -4px !important;
+    border: 1px dashed #718096 !important;
+    border-radius: inherit !important;
+    pointer-events: none !important;
+  }
+}
