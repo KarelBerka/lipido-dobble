@@ -97,7 +97,7 @@ class LipidoDobbleGame {
     const currentVer = window.currentLipidoVersion || "signaling";
     const q = currentVer === "membrane" ? 3 : (currentVer === "signaling" ? 5 : (currentVer === "atlas" ? 7 : 8));
     const pool = getLipidsForVersion(currentVer);
-    this.deck = generateDobbleDeck(pool, q, true);
+    this.deck = generateDobbleDeck(pool, q, true, [0, 1, 2, 3, 4, 5]);
 
     this.container.innerHTML = `
       <div class="game-header">
