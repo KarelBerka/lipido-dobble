@@ -483,13 +483,13 @@ function initGenerator() {
 
 function getItemDimensions(k) {
   if (k === 4) { // q=3 (Membrane)
-    return { scale: 1.15, struct2dSize: 100, img3dSize: 110, textClass: "item-text", code3Class: "item-code3" };
+    return { scale: 1.35, struct2dSize: 130, img3dSize: 140, textClass: "item-text", code3Class: "item-code3" };
   } else if (k === 6) { // q=5 (Signaling)
-    return { scale: 0.95, struct2dSize: 82, img3dSize: 90, textClass: "item-text", code3Class: "item-code3" };
+    return { scale: 1.12, struct2dSize: 105, img3dSize: 115, textClass: "item-text", code3Class: "item-code3" };
   } else if (k === 8) { // q=7 (LIPID MAPS Atlas)
-    return { scale: 0.78, struct2dSize: 64, img3dSize: 70, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
+    return { scale: 0.92, struct2dSize: 85, img3dSize: 92, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
   } else { // k >= 9 (q=8, Mass Spec)
-    return { scale: 0.72, struct2dSize: 58, img3dSize: 64, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
+    return { scale: 0.82, struct2dSize: 75, img3dSize: 82, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
   }
 }
 

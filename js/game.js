@@ -172,11 +172,11 @@ class LipidoDobbleGame {
     const rotateElem = document.getElementById("set-random-rotation");
     const rotateEnabled = rotateElem ? rotateElem.checked === true : false;
 
-    let dims = { scale: 0.95, struct2dSize: 82, img3dSize: 90, textClass: "item-text", code3Class: "item-code3" };
-    if (k === 4) dims = { scale: 1.15, struct2dSize: 100, img3dSize: 110, textClass: "item-text", code3Class: "item-code3" };
-    else if (k === 6) dims = { scale: 0.95, struct2dSize: 82, img3dSize: 90, textClass: "item-text", code3Class: "item-code3" };
-    else if (k === 8) dims = { scale: 0.78, struct2dSize: 64, img3dSize: 70, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
-    else if (k >= 9) dims = { scale: 0.72, struct2dSize: 58, img3dSize: 64, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
+    let dims = { scale: 1.12, struct2dSize: 105, img3dSize: 115, textClass: "item-text", code3Class: "item-code3" };
+    if (k === 4) dims = { scale: 1.35, struct2dSize: 130, img3dSize: 140, textClass: "item-text", code3Class: "item-code3" };
+    else if (k === 6) dims = { scale: 1.12, struct2dSize: 105, img3dSize: 115, textClass: "item-text", code3Class: "item-code3" };
+    else if (k === 8) dims = { scale: 0.92, struct2dSize: 85, img3dSize: 92, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
+    else if (k >= 9) dims = { scale: 0.82, struct2dSize: 75, img3dSize: 82, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
 
     cardData.items.forEach((item, posIdx) => {
       const pos = positions[posIdx] || {x:50,y:50};
