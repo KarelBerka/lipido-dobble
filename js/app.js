@@ -1,11 +1,62 @@
 // js/app.js — Main Application Controller for LipidoDobble
 
 const _VALID_LANGS = ["cs", "en", "de", "fr"];
-const _urlLang = new URLSearchParams(window.location.search).get("lang");
-const _storedLang = localStorage.getItem("lipido_dobble_lang");
-const _resolvedLang = _VALID_LANGS.includes(_urlLang) ? _urlLang : (_VALID_LANGS.includes(_storedLang) ? _storedLang : "cs");
 
-window.currentLang = _resolvedLang;
+function getLanguageFromURL() {
+  const hashRaw = window.location.hash || "";
+  if (hashRaw) {
+    let hashClean = hashRaw.replace(/^#\/?/, '').split('?')[0].split('/')[0].trim().toLowerCase();
+    if (hashClean.startsWith("lang=")) {
+      hashClean = hashClean.replace("lang=", "");
+    }
+    if (hashClean === "cz") hashClean = "cs";
+    if (_VALID_LANGS.includes(hashClean)) {
+      return hashClean;
+    }
+  }
+
+  const searchParams = new URLSearchParams(window.location.search);
+  let urlLang = searchParams.get("lang");
+  if (!urlLang) {
+    for (const lang of ["cs", "cz", "en", "de", "fr"]) {
+      if (searchParams.has(lang)) {
+        urlLang = lang;
+        break;
+      }
+    }
+  }
+  if (urlLang) {
+    urlLang = urlLang.trim().toLowerCase();
+    if (urlLang === "cz") urlLang = "cs";
+    if (_VALID_LANGS.includes(urlLang)) {
+      return urlLang;
+    }
+  }
+
+  const path = window.location.pathname.toLowerCase();
+  for (const lang of ["en", "de", "fr", "cs", "cz"]) {
+    if (path.includes("/" + lang + "/") || path.endsWith("/" + lang)) {
+      return lang === "cz" ? "cs" : lang;
+    }
+  }
+
+  return null;
+}
+
+function resolveInitialLanguage(storageKey) {
+  const urlLang = getLanguageFromURL();
+  if (urlLang) {
+    localStorage.setItem(storageKey, urlLang);
+    return urlLang;
+  }
+  const storedLang = localStorage.getItem(storageKey);
+  if (storedLang && _VALID_LANGS.includes(storedLang)) {
+    return storedLang;
+  }
+  return "cs";
+}
+
+window.currentLang = resolveInitialLanguage("lipido_dobble_lang");
 window.currentLipidoVersion = localStorage.getItem("lipido_dobble_version") || "signaling"; // membrane (q=3), signaling (q=5), atlas (q=7), massspec (q=8)
 
 const TRANSLATIONS = {
@@ -103,19 +154,37 @@ function initVersionSelector() {
   });
 }
 
+function applyLanguageChange(newLang) {
+  if (!_VALID_LANGS.includes(newLang)) return;
+  window.currentLang = newLang;
+  localStorage.setItem("lipido_dobble_lang", window.currentLang);
+  document.documentElement.setAttribute("lang", window.currentLang);
+
+  const langToggle = document.getElementById("lang-toggle");
+  if (langToggle) langToggle.value = window.currentLang;
+
+  translatePage();
+  renderEncyclopedia("all", "");
+  if (activeGameInstance) activeGameInstance.updateLang();
+}
+
 function initLanguage() {
   const langToggle = document.getElementById("lang-toggle");
   if (langToggle) {
     langToggle.value = window.currentLang;
-    translatePage();
     langToggle.addEventListener("change", () => {
-      window.currentLang = langToggle.value;
-      localStorage.setItem("lipido_dobble_lang", window.currentLang);
-      translatePage();
-      renderEncyclopedia("all", "");
-      if (activeGameInstance) activeGameInstance.updateLang();
+      applyLanguageChange(langToggle.value);
     });
   }
+
+  translatePage();
+
+  window.addEventListener("hashchange", () => {
+    const urlLang = getLanguageFromURL();
+    if (urlLang && urlLang !== window.currentLang) {
+      applyLanguageChange(urlLang);
+    }
+  });
 }
 
 function translatePage() {
