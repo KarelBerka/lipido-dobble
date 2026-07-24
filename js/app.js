@@ -307,6 +307,18 @@ function initGenerator() {
   });
 }
 
+function getItemDimensions(k) {
+  if (k === 4) { // q=3 (Membrane)
+    return { scale: 1.15, struct2dSize: 100, img3dSize: 110, textClass: "item-text", code3Class: "item-code3" };
+  } else if (k === 6) { // q=5 (Signaling)
+    return { scale: 0.95, struct2dSize: 82, img3dSize: 90, textClass: "item-text", code3Class: "item-code3" };
+  } else if (k === 8) { // q=7 (LIPID MAPS Atlas)
+    return { scale: 0.78, struct2dSize: 64, img3dSize: 70, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
+  } else { // k >= 9 (q=8, Mass Spec)
+    return { scale: 0.72, struct2dSize: 58, img3dSize: 64, textClass: "item-text item-text-small", code3Class: "item-code3 item-code3-small" };
+  }
+}
+
 function renderGeneratorPreview(recompute = true) {
   const grid = document.getElementById("generator-cards-grid");
   if (!grid) return;
@@ -331,6 +343,7 @@ function renderGeneratorPreview(recompute = true) {
   grid.innerHTML = "";
   const lang = window.currentLang;
   const k = q + 1;
+  const dims = getItemDimensions(k);
 
   let positions = [];
   if (k === 4) positions = [{x:30,y:30},{x:70,y:30},{x:30,y:70},{x:70,y:70}];
@@ -358,20 +371,20 @@ function renderGeneratorPreview(recompute = true) {
       const l = item.symbol;
       const rep = item.repType;
       const rot = rotateEnabled ? Math.floor(Math.random() * 360) : 0;
-      const scale = k === 9 ? 0.7 : 0.85;
+      const scale = dims.scale;
 
       let content = "";
       // 0: Local Name, 1: Eng Name, 2: Code3, 3: 2D, 4: 3D, 5: Formula, 6: SMILES
-      if (rep === 0) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${getLipidName(l, lang)}</span>`;
-      else if (rep === 1) content = `<span class="item-text" style="${k===9?'font-size:0.6rem;':''}">${l.engName}</span>`;
-      else if (rep === 2) content = `<span class="item-code3" style="${k===9?'font-size:0.7rem;':''}">${l.code3}</span>`;
-      else if (rep === 3) content = renderStructureToSVG(l.structure, k===9?52:68, k===9?52:68);
+      if (rep === 0) content = `<span class="${dims.textClass}">${getLipidName(l, lang)}</span>`;
+      else if (rep === 1) content = `<span class="${dims.textClass}">${l.engName}</span>`;
+      else if (rep === 2) content = `<span class="${dims.code3Class}">${l.code3}</span>`;
+      else if (rep === 3) content = renderStructureToSVG(l.structure, dims.struct2dSize, dims.struct2dSize);
       else if (rep === 4) {
         const cleanCode = l.code3.toLowerCase().replace("(", "_").replace(")", "_").replace(":", "_").replace("/", "_");
-        content = `<img src="assets/structures/${cleanCode}.png" style="width:${k===9?48:62}px;height:${k===9?48:62}px;object-fit:contain;" onerror="this.style.display='none'">`;
+        content = `<img src="assets/structures/${cleanCode}.png" style="width:${dims.img3dSize}px;height:${dims.img3dSize}px;object-fit:contain;" onerror="this.style.display='none'">`;
       }
-      else if (rep === 5) content = `<span class="item-condensed" style="${k===9?'font-size:0.6rem;':''}">${l.formula}</span>`;
-      else content = `<span class="item-smiles" style="font-size:0.5rem;word-break:break-all;line-height:1.1;display:block;max-width:65px;">${l.smiles}</span>`;
+      else if (rep === 5) content = `<span class="item-condensed">${l.formula}</span>`;
+      else content = `<span class="item-smiles" style="font-size:0.55rem;word-break:break-all;line-height:1.1;display:block;max-width:75px;">${l.smiles}</span>`;
 
       itemsHTML += `
         <div class="card-item" style="--x: ${pos.x}%; --y: ${pos.y}%; --scale: ${scale}; --rot: ${rot}deg;">
