@@ -181,8 +181,7 @@ class LipidoDobbleGame {
       let content = "";
       let classes = "card-item";
 
-      if (rep === 0) content = `<span class="${dims.textClass}">${getLipidName(s, lang)}</span>`;
-      else if (rep === 1) content = `<span class="${dims.textClass}">${s.engName}</span>`;
+      if (rep === 0 || rep === 1) content = `<span class="${dims.textClass}">${getLipidName(s, lang)}</span>`;
       else if (rep === 2) content = `<span class="${dims.code3Class}">${s.code3}</span>`;
       else if (rep === 3) content = renderStructureToSVG(s.structure, dims.struct2dSize, dims.struct2dSize);
       else if (rep === 4) {

@@ -374,9 +374,8 @@ function renderGeneratorPreview(recompute = true) {
       const scale = dims.scale;
 
       let content = "";
-      // 0: Local Name, 1: Eng Name, 2: Code3, 3: 2D, 4: 3D, 5: Formula, 6: SMILES
-      if (rep === 0) content = `<span class="${dims.textClass}">${getLipidName(l, lang)}</span>`;
-      else if (rep === 1) content = `<span class="${dims.textClass}">${l.engName}</span>`;
+      // 0: Local Name, 1: Local Name (Alt), 2: Code3, 3: 2D, 4: 3D, 5: Formula, 6: SMILES
+      if (rep === 0 || rep === 1) content = `<span class="${dims.textClass}">${getLipidName(l, lang)}</span>`;
       else if (rep === 2) content = `<span class="${dims.code3Class}">${l.code3}</span>`;
       else if (rep === 3) content = renderStructureToSVG(l.structure, dims.struct2dSize, dims.struct2dSize);
       else if (rep === 4) {
