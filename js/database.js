@@ -1715,9 +1715,7 @@ function renderStructureToSVG(structure, width = "100%", height = "100%", bondCo
 
   // Draw atom text labels with background white mask
   structure.atoms.forEach(atom => {
-    const cleanLabel = atom.label ? atom.label.replace(/[\u2080-\u2089]/g, m => String.fromCharCode(m.charCodeAt(0) - 0x2080 + 48)) : "";
-    const isAliphaticCarbon = atom.label && /^(CH\d*|H\d*C|C)$/i.test(cleanLabel);
-    if (atom.label && !isAliphaticCarbon) {
+    if (atom.label) {
       let color = "#000000";
       if (atom.type === "O") color = "#cc0000"; // Wikipedia Red
       else if (atom.type === "N") color = "#0000cc"; // Wikipedia Blue
@@ -1725,7 +1723,7 @@ function renderStructureToSVG(structure, width = "100%", height = "100%", bondCo
       else if (atom.type === "P") color = "#ff7f00"; // Wikipedia Orange
 
       const formattedLabel = formatLabelSVG(atom.label);
-      const labelWidth = Math.max(16, atom.label.length * 7.5);
+      const labelWidth = Math.max(16, atom.label.length * 7.8);
       const labelHeight = 13;
       
       svgContent += `
