@@ -380,12 +380,14 @@ function renderGeneratorPreview(recompute = true) {
       `;
     });
 
+    const labelPrefix = lang === "cs" ? "Karta" : (lang === "de" ? "Karte" : (lang === "fr" ? "Carte" : "Card"));
+    let labelText = `${labelPrefix} ${idx + 1}`;
     if (showCheat) {
       const listNames = cardData.items.map(it => it.symbol.code3).join(", ");
-      itemsHTML += `<span style="position: absolute; top: 8px; left: 8px; font-size: 0.5rem; color: var(--text-muted); max-width: 80%; text-align: left; pointer-events: none;">${listNames}</span>`;
+      labelText += ` • ${listNames}`;
     }
 
-    itemsHTML += `<span style="position: absolute; bottom: 8px; left: 0; right: 0; font-size: 0.6rem; text-align: center; color: var(--text-muted);">Karta ${idx+1}</span>`;
+    itemsHTML += `<span style="position: absolute; bottom: 8px; left: 0; right: 0; font-size: 0.6rem; text-align: center; color: var(--text-muted); pointer-events: none; padding: 0 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${labelText}</span>`;
     card.innerHTML = itemsHTML;
     grid.appendChild(card);
   });
