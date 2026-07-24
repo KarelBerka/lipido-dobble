@@ -420,15 +420,27 @@ function renderEncyclopedia(filter, query) {
     return true;
   });
 
+  const categoryMap = {
+    cs: { FA: "Mastné kyseliny (FA)", GP: "Glycerofosfolipidy (GP)", SP: "Sfingolipidy (SP)", ST: "Steroly (ST)", GL: "Glycerolipidy (GL)" },
+    en: { FA: "Fatty Acids (FA)", GP: "Glycerophospholipids (GP)", SP: "Sphingolipids (SP)", ST: "Sterols (ST)", GL: "Glycerolipids (GL)" },
+    de: { FA: "Fettsäuren (FA)", GP: "Glycerophospholipide (GP)", SP: "Sphingolipide (SP)", ST: "Sterole (ST)", GL: "Glycerolipide (GL)" },
+    fr: { FA: "Acides gras (FA)", GP: "Glycérophospholipides (GP)", SP: "Sphingolipides (SP)", ST: "Stérols (ST)", GL: "Glycérolipides (GL)" }
+  };
+  const classLabelMap = { cs: "Třída", en: "Category", de: "Klasse", fr: "Catégorie" };
+  const formulaLabelMap = { cs: "Vzorec", en: "Formula", de: "Formel", fr: "Formule" };
+
   filtered.forEach(l => {
     const card = document.createElement("div");
     card.className = "lipid-card";
     const cleanCode = l.code3.toLowerCase().replace("(", "_").replace(")", "_").replace(":", "_").replace("/", "_");
+    const categoryName = categoryMap[lang]?.[l.group] || l.groupCz || l.group;
+    const subTitle = lang === "cs" ? l.engName : (l.name !== getLipidName(l, lang) ? l.name : l.code3);
+
     card.innerHTML = `
       <div class="lipid-header">
         <div class="lipid-title">
           <span class="lipid-cz-name">${getLipidName(l, lang)}</span>
-          <span class="lipid-eng-name">${l.engName}</span>
+          <span class="lipid-eng-name">${subTitle}</span>
         </div>
         <span class="lipid-badge">${l.code3}</span>
       </div>
@@ -439,7 +451,7 @@ function renderEncyclopedia(filter, query) {
         </div>
       </div>
       <div style="font-size: 0.85rem; color: var(--text-muted);">
-        <strong>Třída:</strong> ${l.groupCz || l.group} | <strong>Vzorec:</strong> ${l.formula}<br>
+        <strong>${classLabelMap[lang] || "Category"}:</strong> ${categoryName} | <strong>${formulaLabelMap[lang] || "Formula"}:</strong> ${l.formula}<br>
         <strong>SMILES:</strong> <span style="font-family: monospace; font-size: 0.75rem; word-break: break-all;">${l.smiles}</span>
       </div>
       <p style="font-size: 0.85rem; line-height: 1.4; margin-top: 0.5rem;">${getLipidDesc(l, lang)}</p>
