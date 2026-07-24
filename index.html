@@ -46,7 +46,7 @@
     <main>
       <!-- Version Selector (4 versions) -->
       <div class="version-bar">
-        <span class="version-label">Verze hry:</span>
+        <span class="version-label" data-translate="ver_label">Verze hry:</span>
         <button class="version-btn" data-version="membrane" data-translate="ver_membrane">Membrána (q=3, 13 lipidů)</button>
         <button class="version-btn active" data-version="signaling" data-translate="ver_signaling">Signalizace (q=5, 31 lipidů)</button>
         <button class="version-btn" data-version="atlas" data-translate="ver_atlas">LIPID MAPS (q=7, 57 lipidů)</button>
@@ -78,11 +78,11 @@
           </div>
           <div class="filter-group" id="ref-filters">
             <button class="filter-btn active" data-filter="all" data-translate="filter_all">Všechny</button>
-            <button class="filter-btn" data-filter="FA">Mastné kyseliny (FA)</button>
-            <button class="filter-btn" data-filter="GP">Glycerofosfolipidy (GP)</button>
-            <button class="filter-btn" data-filter="SP">Sfingolipidy (SP)</button>
-            <button class="filter-btn" data-filter="ST">Steroly (ST)</button>
-            <button class="filter-btn" data-filter="GL">Glycerolipidy (GL)</button>
+            <button class="filter-btn" data-filter="FA" data-translate="filter_fa">Mastné kyseliny (FA)</button>
+            <button class="filter-btn" data-filter="GP" data-translate="filter_gp">Glycerofosfolipidy (GP)</button>
+            <button class="filter-btn" data-filter="SP" data-translate="filter_sp">Sfingolipidy (SP)</button>
+            <button class="filter-btn" data-filter="ST" data-translate="filter_st">Steroly (ST)</button>
+            <button class="filter-btn" data-filter="GL" data-translate="filter_gl">Glycerolipidy (GL)</button>
           </div>
         </div>
         <div class="lipid-grid" id="ref-grid"></div>
@@ -97,7 +97,7 @@
       <section id="generator-tab" class="tab-content">
         <div class="generator-layout">
           <div class="generator-settings" style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 15px; display: flex; flex-direction: column; gap: 1rem; height: fit-content;">
-            <h3 style="margin-bottom: 0.5rem;">Nastavení tiskovin</h3>
+            <h3 style="margin-bottom: 0.5rem;" data-translate="gen_title">Nastavení tiskovin</h3>
             
             <div class="setting-group" style="display: flex; flex-direction: column; gap: 0.25rem;">
               <label for="set-card-shape" style="font-weight: 600; font-size: 0.9rem;" data-translate="card_shape_label">Tvar karet</label>
@@ -128,41 +128,41 @@
             <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer; align-items: flex-start;">
               <input type="checkbox" id="set-guarantee-diff-reps" checked>
               <div class="checkbox-label-text">
-                <span class="checkbox-title" style="font-weight: 600; font-size: 0.9rem; display: block;">Vždy odlišná reprezentace</span>
-                <span class="checkbox-sub" style="font-size: 0.75rem; color: var(--text-muted); display: block;">Zaručí, že společný lipid má na dvou kartách jiný formát.</span>
+                <span class="checkbox-title" style="font-weight: 600; font-size: 0.9rem; display: block;" data-translate="guarantee_diff_label">Vždy odlišná reprezentace</span>
+                <span class="checkbox-sub" style="font-size: 0.75rem; color: var(--text-muted); display: block;" data-translate="guarantee_diff_sub">Zaručí, že společný lipid má na dvou kartách jiný formát.</span>
               </div>
             </label>
 
             <div class="setting-group" style="display: flex; flex-direction: column; gap: 0.25rem;">
-              <label style="font-weight: 600; font-size: 0.9rem;">Aktivní reprezentace</label>
+              <label style="font-weight: 600; font-size: 0.9rem;" data-translate="active_reps_label">Aktivní reprezentace</label>
               <div class="reps-checklist" style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem; background: rgba(0,0,0,0.02); padding: 0.75rem; border-radius: 8px;">
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="0" checked>
-                  <span class="checkbox-title" style="font-size: 0.85rem;">Český název lipidu</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_name_local">Název lipidu (v jazyce stránky)</span>
                 </label>
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="1" checked>
-                  <span class="checkbox-title" style="font-size: 0.85rem;">Anglický název lipidu</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_name_alt">Alternativní název lipidu</span>
                 </label>
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="2" checked>
-                  <span class="checkbox-title" style="font-size: 0.85rem;">Lipidová zkratka (code3)</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_code3">Lipidová zkratka (code3)</span>
                 </label>
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="3" checked>
-                  <span class="checkbox-title" style="font-size: 0.85rem;">2D Strukturní vzorec</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_structure2d">2D Strukturní vzorec</span>
                 </label>
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="4" checked>
-                  <span class="checkbox-title" style="font-size: 0.85rem;">3D Model (PyMOL)</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_structure3d">3D Model (PyMOL)</span>
                 </label>
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="5" checked>
-                  <span class="checkbox-title" style="font-size: 0.85rem;">Sumární vzorec</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_formula">Sumární vzorec</span>
                 </label>
                 <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer;">
                   <input type="checkbox" class="set-rep-toggle" value="6">
-                  <span class="checkbox-title" style="font-size: 0.85rem;">SMILES řetězec</span>
+                  <span class="checkbox-title" style="font-size: 0.85rem;" data-translate="rep_smiles">SMILES řetězec</span>
                 </label>
               </div>
             </div>
@@ -170,8 +170,8 @@
             <label class="checkbox-setting" style="display: flex; gap: 8px; cursor: pointer; align-items: flex-start;">
               <input type="checkbox" id="set-show-cheat">
               <div class="checkbox-label-text">
-                <span class="checkbox-title" style="font-weight: 600; font-size: 0.9rem; display: block;">Zobrazit tahák řešení</span>
-                <span class="checkbox-sub" style="font-size: 0.75rem; color: var(--text-muted); display: block;">Vytiskne v rohu karty seznam zkratek lipidů.</span>
+                <span class="checkbox-title" style="font-weight: 600; font-size: 0.9rem; display: block;" data-translate="cheat_label">Zobrazit tahák řešení</span>
+                <span class="checkbox-sub" style="font-size: 0.75rem; color: var(--text-muted); display: block;" data-translate="cheat_sub">Vytiskne v rohu karty seznam zkratek lipidů.</span>
               </div>
             </label>
 
