@@ -504,8 +504,8 @@ function renderGeneratorPreview(recompute = true) {
   const checkedBoxes = document.querySelectorAll(".set-rep-toggle:checked");
   let allowedReps = Array.from(checkedBoxes).map(cb => parseInt(cb.value));
   if (allowedReps.length === 0) {
-    allowedReps = [0, 1, 2, 3, 4, 5];
-    document.querySelectorAll(".set-rep-toggle").forEach((cb, idx) => { if (idx < 6) cb.checked = true; });
+    allowedReps = [0, 1, 2, 3, 4];
+    document.querySelectorAll(".set-rep-toggle").forEach((cb, idx) => { if (idx < 5) cb.checked = true; });
   }
 
   if (recompute || generatedDeck.length === 0) {

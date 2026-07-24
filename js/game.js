@@ -97,7 +97,14 @@ class LipidoDobbleGame {
     const currentVer = window.currentLipidoVersion || "signaling";
     const q = currentVer === "membrane" ? 3 : (currentVer === "signaling" ? 5 : (currentVer === "atlas" ? 7 : 8));
     const pool = getLipidsForVersion(currentVer);
-    this.deck = generateDobbleDeck(pool, q, true, [0, 1, 2, 3, 4, 5]);
+    const gameAllowedReps = [];
+    document.querySelectorAll(".set-rep-toggle:checked").forEach(cb => {
+      const val = parseInt(cb.value);
+      if (!isNaN(val) && !gameAllowedReps.includes(val)) gameAllowedReps.push(val);
+    });
+    if (gameAllowedReps.length === 0) gameAllowedReps.push(0, 1, 2, 3, 4);
+
+    this.deck = generateDobbleDeck(pool, q, true, gameAllowedReps);
 
     this.container.innerHTML = `
       <div class="game-header">

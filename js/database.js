@@ -91,25 +91,7 @@ const LIPIDS = [
     descDe: "Gesättigte Fettsäure mit 16 Kohlenstoffatomen. Hauptprodukt der De-novo-Fettsäuresynthese.",
     descFr: "Acide gras saturé à 16 carbones. Produit principal de la lipogenèse de novo.",
     smiles: "CCCCCCCCCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 55, label: "O⁻", type: "O" },
-        { x: 20, y: 40, label: "", type: "C" },
-        { x: 20, y: 22, label: "O", type: "O" },
-        { x: 32, y: 55, label: "", type: "C" },
-        { x: 44, y: 40, label: "", type: "C" },
-        { x: 56, y: 55, label: "", type: "C" },
-        { x: 68, y: 40, label: "", type: "C" },
-        { x: 80, y: 55, label: "", type: "C" },
-        { x: 92, y: 40, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 2 },
-        { from: 1, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
-        { from: 4, to: 5, type: 1 }, { from: 5, to: 6, type: 1 },
-        { from: 6, to: 7, type: 1 }, { from: 7, to: 8, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}]}
   },
   {
     id: 2,
@@ -127,26 +109,7 @@ const LIPIDS = [
     descDe: "Gesättigte 18-Kohlenstoff-Fettsäure, häufig in tierischen Fetten und Membranen.",
     descFr: "Acide gras saturé à 18 carbones abondant dans les graisses animales et les membranes.",
     smiles: "CCCCCCCCCCCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 8, y: 55, label: "O⁻", type: "O" },
-        { x: 18, y: 40, label: "", type: "C" },
-        { x: 18, y: 22, label: "O", type: "O" },
-        { x: 29, y: 55, label: "", type: "C" },
-        { x: 40, y: 40, label: "", type: "C" },
-        { x: 51, y: 55, label: "", type: "C" },
-        { x: 62, y: 40, label: "", type: "C" },
-        { x: 73, y: 55, label: "", type: "C" },
-        { x: 84, y: 40, label: "", type: "C" },
-        { x: 94, y: 55, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 2 },
-        { from: 1, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
-        { from: 4, to: 5, type: 1 }, { from: 5, to: 6, type: 1 },
-        { from: 6, to: 7, type: 1 }, { from: 7, to: 8, type: 1 }, { from: 8, to: 9, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}]}
   },
   {
     id: 3,
@@ -164,26 +127,7 @@ const LIPIDS = [
     descDe: "Einfach ungesättigte Omega-9-Fettsäure mit cis-Doppelbindung und charakteristischem Knick.",
     descFr: "Acide gras mono-insaturé oméga-9 avec une double liaison cis provoquant un coude dans la chaîne.",
     smiles: "CCCCCCCC=CCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 35, label: "O⁻", type: "O" },
-        { x: 20, y: 45, label: "", type: "C" },
-        { x: 20, y: 62, label: "O", type: "O" },
-        { x: 32, y: 35, label: "", type: "C" },
-        { x: 44, y: 45, label: "", type: "C" },
-        { x: 55, y: 35, label: "", type: "C" },
-        { x: 62, y: 55, label: "", type: "C" }, // kink cis bond
-        { x: 74, y: 65, label: "", type: "C" },
-        { x: 86, y: 55, label: "", type: "C" },
-        { x: 95, y: 70, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 2 },
-        { from: 1, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
-        { from: 4, to: 5, type: 2 }, { from: 5, to: 6, type: 1 },
-        { from: 6, to: 7, type: 1 }, { from: 7, to: 8, type: 1 }, { from: 8, to: 9, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}]}
   },
   {
     id: 4,
@@ -201,23 +145,7 @@ const LIPIDS = [
     descDe: "Häufigstes Phospholipid in der äußeren Schicht eukaryotischer Plasmamembranen.",
     descFr: "Phospholipide le plus abondant du feuillet externe des membranes plasmiques eucaryotes.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 30, label: "N⁺(CH₃)₃", type: "N" },
-        { x: 32, y: 30, label: "", type: "C" },
-        { x: 42, y: 30, label: "O-P-O", type: "P" },
-        { x: 55, y: 30, label: "", type: "C" },
-        { x: 65, y: 30, label: "CH", type: "C" },
-        { x: 75, y: 20, label: "O-CO-R1", type: "O" },
-        { x: 65, y: 50, label: "CH₂", type: "C" },
-        { x: 78, y: 55, label: "O-CO-R2", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
-        { from: 4, to: 5, type: 1 }, { from: 4, to: 6, type: 1 }, { from: 6, to: 7, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "", "type": "C"}, {"x": 8, "y": 59, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 0, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 1, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 2}, {"from": 28, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 2}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}, {"from": 45, "to": 46, "type": 1}]}
   },
   {
     id: 5,
@@ -235,23 +163,7 @@ const LIPIDS = [
     descDe: "Phospholipid der inneren Membranschicht; fördert die Membrankrümmung.",
     descFr: "Phospholipide abondant du feuillet interne favorisant la courbure membranaire.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 30, label: "H₃N⁺", type: "N" },
-        { x: 30, y: 30, label: "", type: "C" },
-        { x: 42, y: 30, label: "O-P-O", type: "P" },
-        { x: 55, y: 30, label: "", type: "C" },
-        { x: 65, y: 30, label: "CH", type: "C" },
-        { x: 78, y: 20, label: "O-CO-R1", type: "O" },
-        { x: 65, y: 50, label: "CH₂", type: "C" },
-        { x: 78, y: 55, label: "O-CO-R2", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
-        { from: 4, to: 5, type: 1 }, { from: 4, to: 6, type: 1 }, { from: 6, to: 7, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "NH₃⁺", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 0, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 9, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 1, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 2}, {"from": 27, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 2}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}]}
   },
   {
     id: 6,
@@ -269,24 +181,7 @@ const LIPIDS = [
     descDe: "Anionisches Phospholipid; dient bei Apoptose an der Außenmembran als Signal für Phagozyten.",
     descFr: "Phospholipide anionique du feuillet interne; exposé à l'extérieur lors de l'apoptose.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 12, y: 20, label: "COO⁻", type: "O" },
-        { x: 18, y: 35, label: "NH₃⁺", type: "N" },
-        { x: 28, y: 35, label: "", type: "C" },
-        { x: 42, y: 35, label: "O-P-O", type: "P" },
-        { x: 56, y: 35, label: "", type: "C" },
-        { x: 68, y: 35, label: "CH", type: "C" },
-        { x: 80, y: 22, label: "O-CO-R1", type: "O" },
-        { x: 68, y: 55, label: "CH₂", type: "C" },
-        { x: 80, y: 58, label: "O-CO-R2", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 2, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 },
-        { from: 3, to: 4, type: 1 }, { from: 4, to: 5, type: 1 }, { from: 5, to: 6, type: 1 },
-        { from: 5, to: 7, type: 1 }, { from: 7, to: 8, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "Ser", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "", "type": "C"}, {"x": 145.0, "y": 20.0, "label": "", "type": "C"}, {"x": 150.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 0, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 9, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 1, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 2}, {"from": 29, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 2}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}, {"from": 45, "to": 46, "type": 1}, {"from": 46, "to": 47, "type": 1}]}
   },
   {
     id: 7,
@@ -304,21 +199,7 @@ const LIPIDS = [
     descDe: "Saures Phospholipid mit Inositol-Kopfgruppe; Vorläufer für Inositol-Second-Messenger.",
     descFr: "Glycérophospholipide acide avec tête inositol; précurseur de phosphoinositides signalétiques.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 35, label: "Inositol", type: "C" },
-        { x: 32, y: 35, label: "O-P-O", type: "P" },
-        { x: 48, y: 35, label: "", type: "C" },
-        { x: 62, y: 35, label: "CH", type: "C" },
-        { x: 75, y: 22, label: "O-CO-R1", type: "O" },
-        { x: 62, y: 55, label: "CH₂", type: "C" },
-        { x: 75, y: 58, label: "O-CO-R2", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 },
-        { from: 3, to: 4, type: 1 }, { from: 3, to: 5, type: 1 }, { from: 5, to: 6, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 14, "y": 68, "label": "Inositol", "type": "C"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 0, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 1, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 2}, {"from": 25, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}]}
   },
   {
     id: 8,
@@ -336,19 +217,7 @@ const LIPIDS = [
     descDe: "Haupt-Sphingolipid von Myelinscheiden und Plasmamembranen mit Phosphocholin-Kopfgruppe.",
     descFr: "Sphingolipide majeur de la gaine de myéline et des membranes plasmiques.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 25, label: "Cholin-P", type: "N" },
-        { x: 35, y: 25, label: "O-CH₂", type: "O" },
-        { x: 50, y: 38, label: "CH-OH", type: "C" },
-        { x: 50, y: 60, label: "CH-NH-COR", type: "N" },
-        { x: 70, y: 38, label: "Sfingoidní řetězec", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 2, to: 4, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 20, "y": 30, "label": "P", "type": "P"}, {"x": 20, "y": 18, "label": "O⁻", "type": "O"}, {"x": 20, "y": 42, "label": "O", "type": "O"}, {"x": 10, "y": 42, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 1, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 2, "to": 27, "type": 2}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}]}
   },
   {
     id: 9,
@@ -366,20 +235,7 @@ const LIPIDS = [
     descDe: "Einfachstes Glycerophospholipid und zentrales Zwischenprodukt der Lipidsynthese.",
     descFr: "Le plus simple des glycérophospholipides et intermédiaire central de la biosynthèse lipidique.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 35, label: "HO-P-OH", type: "P" },
-        { x: 38, y: 35, label: "CH₂", type: "C" },
-        { x: 52, y: 35, label: "CH", type: "C" },
-        { x: 68, y: 20, label: "O-CO-R1", type: "O" },
-        { x: 52, y: 58, label: "CH₂", type: "C" },
-        { x: 68, y: 60, label: "O-CO-R2", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 },
-        { from: 2, to: 4, type: 1 }, { from: 4, to: 5, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 23, "y": 59, "label": "PO₄²⁻", "type": "P"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 0, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 2}, {"from": 6, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 1, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 2}, {"from": 24, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 2}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}]}
   },
   {
     id: 10,
@@ -488,19 +344,7 @@ const LIPIDS = [
     descDe: "Glykosphingolipid der Myelinscheiden im zentralen Nervensystem.",
     descFr: "Glycosphingolipide majeur du système nerveux et des gaines de myéline.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 30, label: "Galaktóza", type: "O" },
-        { x: 38, y: 30, label: "O-CH₂", type: "C" },
-        { x: 55, y: 30, label: "CH-OH", type: "C" },
-        { x: 55, y: 55, label: "CH-NH-COR", type: "N" },
-        { x: 75, y: 30, label: "Sfingoidní tail", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 2, to: 4, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 18, "y": 30, "label": "GalCer", "type": "C"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 1, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 2, "to": 24, "type": 2}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}]}
   },
 
   // ─── VERZE 2: SIGNALIZACE (q=5, 31 Lipidů) [13..30] ────────────────────────
@@ -520,24 +364,7 @@ const LIPIDS = [
     descDe: "Mehrfach ungesättigte Omega-6-Fettsäure; zentraler Vorläufer von Eicosanoiden.",
     descFr: "Acide gras polyinsaturé oméga-6 à 4 doubles liaisons; précurseur d'éicosanoïdes.",
     smiles: "CCCCCC=CCC=CCC=CCC=CCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 40, label: "O⁻", type: "O" },
-        { x: 20, y: 40, label: "", type: "C" },
-        { x: 30, y: 30, label: "=", type: "C" },
-        { x: 42, y: 45, label: "=", type: "C" },
-        { x: 54, y: 30, label: "=", type: "C" },
-        { x: 66, y: 45, label: "=", type: "C" },
-        { x: 80, y: 30, label: "", type: "C" },
-        { x: 92, y: 45, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 2 }, { from: 3, to: 4, type: 2 },
-        { from: 4, to: 5, type: 2 }, { from: 5, to: 6, type: 2 },
-        { from: 6, to: 7, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "", "type": "C"}, {"x": 139.0, "y": 42.0, "label": "", "type": "C"}, {"x": 145.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 2}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 2}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 2}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}]}
   },
   {
     id: 14,
@@ -555,21 +382,7 @@ const LIPIDS = [
     descDe: "Membran-Phosphoinositid, das von Phospholipase C in IP3 und DAG gespalten wird.",
     descFr: "Phosphoinositide membranaire clivé par la phospholipase C en IP3 et DAG.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(OP(=O)(O)O)C(OP(=O)(O)O)C(O)C1O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 25, label: "PO₄²⁻", type: "P" },
-        { x: 15, y: 55, label: "PO₄²⁻", type: "P" },
-        { x: 30, y: 40, label: "Inositol", type: "C" },
-        { x: 48, y: 40, label: "O-P-O", type: "P" },
-        { x: 65, y: 40, label: "Glycerol", type: "C" },
-        { x: 82, y: 25, label: "R1COO", type: "O" },
-        { x: 82, y: 55, label: "R2COO", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 2, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 },
-        { from: 3, to: 4, type: 1 }, { from: 4, to: 5, type: 1 }, { from: 4, to: 6, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 14, "y": 68, "label": "PIP₂", "type": "C"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 0, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 1, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 2}, {"from": 25, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}]}
   },
   {
     id: 15,
@@ -615,19 +428,7 @@ const LIPIDS = [
     descDe: "Lipid-Second-Messenger, der die Proteinkinase C (PKC) aktiviert.",
     descFr: "Second messager lipidique membranaire activant la protéine kinase C (PKC).",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(CO)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 50, label: "HO-CH₂", type: "O" },
-        { x: 45, y: 50, label: "CH", type: "C" },
-        { x: 70, y: 30, label: "O-CO-R1", type: "O" },
-        { x: 45, y: 75, label: "CH₂", type: "C" },
-        { x: 70, y: 75, label: "O-CO-R2", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 1, to: 3, type: 1 }, { from: 3, to: 4, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "OH", "type": "O"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 1, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 2}, {"from": 23, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 2}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}]}
   },
   {
     id: 17,
@@ -645,17 +446,7 @@ const LIPIDS = [
     descDe: "Bioaktives Lysophospholipid, das Proliferation und Migration stimuliert.",
     descFr: "Lysophospholipide bioactif stimulant la prolifération via des récepteurs Couplés aux Protéines G.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(O)COP(=O)(O)O",
-    structure: {
-      atoms: [
-        { x: 15, y: 40, label: "PO₄²⁻", type: "P" },
-        { x: 35, y: 40, label: "CH₂", type: "C" },
-        { x: 55, y: 40, label: "CH-OH", type: "C" },
-        { x: 80, y: 40, label: "O-CO-R", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 23, "y": 59, "label": "PO₄²⁻", "type": "P"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "OH", "type": "O"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 0, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 2}, {"from": 6, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 1, "to": 23, "type": 1}]}
   },
   {
     id: 18,
@@ -673,17 +464,7 @@ const LIPIDS = [
     descDe: "Grundstruktur komplexer Sphingolipide und pro-apoptotischer Signalstoff.",
     descFr: "Squelette de base des sphingolipides complexes et médiateur pro-apoptotique.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 40, label: "HO-CH₂", type: "O" },
-        { x: 45, y: 40, label: "CH-OH", type: "C" },
-        { x: 45, y: 65, label: "CH-NH-COR", type: "N" },
-        { x: 75, y: 40, label: "Sfingoidní řetězec", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 1, to: 3, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "OH", "type": "O"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 1, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 2}, {"from": 6, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 2, "to": 23, "type": 2}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}]}
   },
   {
     id: 19,
@@ -701,19 +482,7 @@ const LIPIDS = [
     descDe: "18-Kohlenstoff-Aminoalkohol; bildet das Rückgrat aller Sphingolipide.",
     descFr: "Amino-alcool à 18 carbones constituant le squelette des sphingolipides.",
     smiles: "CCCCCCCCCCCCCC=CC(C(CO)N)O",
-    structure: {
-      atoms: [
-        { x: 15, y: 45, label: "HO-CH₂", type: "O" },
-        { x: 35, y: 45, label: "CH-NH₂", type: "N" },
-        { x: 55, y: 45, label: "CH-OH", type: "O" },
-        { x: 72, y: 35, label: "CH=CH", type: "C" },
-        { x: 90, y: 45, label: "C₁₃H₂₇", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 2 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "OH", "type": "O"}, {"x": 30, "y": 45, "label": "NH₂", "type": "N"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 1, "to": 5, "type": 1}, {"from": 2, "to": 6, "type": 2}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}]}
   },
   {
     id: 20,
@@ -731,17 +500,7 @@ const LIPIDS = [
     descDe: "Starker Signal-Sphingolipid; reguliert Zellüberleben und Lymphozyten-Trafficking.",
     descFr: "Sphingolipide signalétique puissant contrôlant la survie cellulaire et l'immunité.",
     smiles: "CCCCCCCCCCCCCC=CC(C(COP(=O)(O)O)N)O",
-    structure: {
-      atoms: [
-        { x: 15, y: 45, label: "PO₄²⁻", type: "P" },
-        { x: 35, y: 45, label: "CH₂-NH₂", type: "N" },
-        { x: 58, y: 45, label: "CH-OH", type: "O" },
-        { x: 80, y: 45, label: "Sfingoid tail", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 18, "y": 30, "label": "PO₄²⁻", "type": "P"}, {"x": 30, "y": 45, "label": "NH₂", "type": "N"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 1, "to": 6, "type": 1}, {"from": 2, "to": 7, "type": 2}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}]}
   },
   {
     id: 21,
@@ -1065,17 +824,7 @@ const LIPIDS = [
     descDe: "Mittelkettige gesättigte 12-Kohlenstoff-Fettsäure in Kokosöl.",
     descFr: "Acide gras saturé à chaîne moyenne à 12 carbones abondant dans l'huile de coco.",
     smiles: "CCCCCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 15, y: 45, label: "O⁻", type: "O" }, { x: 30, y: 35, label: "", type: "C" },
-        { x: 50, y: 55, label: "", type: "C" }, { x: 70, y: 35, label: "", type: "C" },
-        { x: 90, y: 55, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}]}
   },
   {
     id: 32,
@@ -1093,17 +842,7 @@ const LIPIDS = [
     descDe: "14-Kohlenstoff-Fettsäure für die Protein-Myristoylierung.",
     descFr: "Acide gras saturé à 14 carbones impliqué dans la myristoylation des protéines.",
     smiles: "CCCCCCCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 12, y: 45, label: "O⁻", type: "O" }, { x: 28, y: 35, label: "", type: "C" },
-        { x: 48, y: 55, label: "", type: "C" }, { x: 68, y: 35, label: "", type: "C" },
-        { x: 88, y: 55, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}]}
   },
   {
     id: 33,
@@ -1121,17 +860,7 @@ const LIPIDS = [
     descDe: "Essenzielle Omega-6-Fettsäure der Nahrung.",
     descFr: "Acide gras polyinsaturé oméga-6 essentiel indispensable dans l'alimentation.",
     smiles: "CCCCCC=CCC=CCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 40, label: "O⁻", type: "O" }, { x: 25, y: 40, label: "", type: "C" },
-        { x: 45, y: 30, label: "=", type: "C" }, { x: 65, y: 50, label: "=", type: "C" },
-        { x: 85, y: 35, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 2 }, { from: 3, to: 4, type: 2 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 2}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}]}
   },
   {
     id: 34,
@@ -1149,17 +878,7 @@ const LIPIDS = [
     descDe: "Essenzielle Omega-3-Fettsäure in Leinöl und Pflanzenölen.",
     descFr: "Acide gras oméga-3 essentiel présent dans les graines de lin et huiles végétales.",
     smiles: "CCC=CCC=CCC=CCCCCCCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 40, label: "O⁻", type: "O" }, { x: 25, y: 40, label: "", type: "C" },
-        { x: 45, y: 25, label: "=", type: "C" }, { x: 65, y: 45, label: "=", type: "C" },
-        { x: 85, y: 25, label: "=CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 },
-        { from: 2, to: 3, type: 2 }, { from: 3, to: 4, type: 2 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 2}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 2}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}]}
   },
   {
     id: 35,
@@ -1177,16 +896,7 @@ const LIPIDS = [
     descDe: "Omega-3-Fettsäure aus Fischöl mit 5 Doppelbindungen; herzzellschützend.",
     descFr: "Acide gras oméga-3 de l'huile de poisson à 5 doubles liaisons.",
     smiles: "CCC=CCC=CCC=CCC=CCC=CCCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 40, label: "O⁻", type: "O" },
-        { x: 30, y: 40, label: "5=bonds", type: "C" },
-        { x: 80, y: 40, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 2 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "", "type": "C"}, {"x": 139.0, "y": 42.0, "label": "", "type": "C"}, {"x": 145.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 2}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 2}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 2}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 2}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}]}
   },
   {
     id: 36,
@@ -1204,16 +914,7 @@ const LIPIDS = [
     descDe: "Omega-3-Fettsäure mit 6 Doppelbindungen; essenziell für Gehirn und Netzhaut.",
     descFr: "Acide gras oméga-3 à 6 doubles liaisons, majeur dans le cerveau et la rétine.",
     smiles: "CCC=CCC=CCC=CCC=CCC=CCC=CCC(=O)O",
-    structure: {
-      atoms: [
-        { x: 10, y: 40, label: "O⁻", type: "O" },
-        { x: 30, y: 40, label: "6=bonds", type: "C" },
-        { x: 80, y: 40, label: "CH₃", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 2 }
-      ]
-    }
+    structure: {"atoms": [{"x": 10, "y": 55, "label": "O⁻", "type": "O"}, {"x": 22, "y": 42, "label": "", "type": "C"}, {"x": 22, "y": 24, "label": "O", "type": "O"}, {"x": 28.5, "y": 51.0, "label": "", "type": "C"}, {"x": 35.0, "y": 42.0, "label": "", "type": "C"}, {"x": 41.5, "y": 51.0, "label": "", "type": "C"}, {"x": 48.0, "y": 42.0, "label": "", "type": "C"}, {"x": 54.5, "y": 51.0, "label": "", "type": "C"}, {"x": 61.0, "y": 42.0, "label": "", "type": "C"}, {"x": 67.5, "y": 51.0, "label": "", "type": "C"}, {"x": 74.0, "y": 42.0, "label": "", "type": "C"}, {"x": 80.5, "y": 51.0, "label": "", "type": "C"}, {"x": 87.0, "y": 42.0, "label": "", "type": "C"}, {"x": 93.5, "y": 51.0, "label": "", "type": "C"}, {"x": 100.0, "y": 42.0, "label": "", "type": "C"}, {"x": 106.5, "y": 51.0, "label": "", "type": "C"}, {"x": 113.0, "y": 42.0, "label": "", "type": "C"}, {"x": 119.5, "y": 51.0, "label": "", "type": "C"}, {"x": 126.0, "y": 42.0, "label": "", "type": "C"}, {"x": 132.5, "y": 51.0, "label": "", "type": "C"}, {"x": 139.0, "y": 42.0, "label": "", "type": "C"}, {"x": 145.5, "y": 51.0, "label": "", "type": "C"}, {"x": 152.0, "y": 42.0, "label": "", "type": "C"}, {"x": 158.5, "y": 51.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 2}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 2}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 2}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 2}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}]}
   },
   {
     id: 37,
@@ -1231,16 +932,7 @@ const LIPIDS = [
     descDe: "Hauptspeicherfett im Fettgewebe.",
     descFr: "Lipide neutre de réserve énergétique majeure stocké dans les adipocytes.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 25, y: 20, label: "O-CO-R1", type: "O" },
-        { x: 25, y: 50, label: "CH-O-CO-R2", type: "C" },
-        { x: 25, y: 80, label: "O-CO-R3", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "OH", "type": "O"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 1, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 2}, {"from": 23, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 2}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}]}
   },
   {
     id: 38,
@@ -1258,16 +950,7 @@ const LIPIDS = [
     descDe: "Verdauungsprodukt von Fetten im Darm.",
     descFr: "Produit de la digestion des triglycérides par la lipase pancréatique.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(O)CO",
-    structure: {
-      atoms: [
-        { x: 20, y: 40, label: "HO-CH₂", type: "O" },
-        { x: 45, y: 40, label: "CH-OH", type: "C" },
-        { x: 75, y: 40, label: "O-CO-R", type: "O" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "OH", "type": "O"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "", "type": "C"}, {"x": 145.0, "y": 20.0, "label": "", "type": "C"}, {"x": 150.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "OH", "type": "O"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 2}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 1, "to": 24, "type": 1}]}
   },
   {
     id: 39,
@@ -1285,15 +968,7 @@ const LIPIDS = [
     descDe: "Vorläufer komplexer Glykosphingolipide; akkumuliert bei Morbus Gaucher.",
     descFr: "Précurseur des glycosphingolipides complexes; s'accumule dans la maladie de Gaucher.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 35, label: "Glukóza", type: "O" },
-        { x: 45, y: 35, label: "Ceramid", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 18, "y": 30, "label": "GlcCer", "type": "C"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 1, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 2, "to": 24, "type": 2}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}]}
   },
   {
     id: 40,
@@ -1311,16 +986,7 @@ const LIPIDS = [
     descDe: "Neutraler Glykosphingolipid; Vorläufer von Gangliosiden.",
     descFr: "Glycosphingolipide neutre précurseur des gangliosides.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 35, label: "Gal", type: "O" },
-        { x: 35, y: 35, label: "Glc", type: "O" },
-        { x: 65, y: 35, label: "Ceramid", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 18, "y": 30, "label": "LacCer", "type": "C"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 1, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 2, "to": 24, "type": 2}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}]}
   },
   {
     id: 41,
@@ -1338,16 +1004,7 @@ const LIPIDS = [
     descDe: "Sialinsäurehaltiges Glykosphingolipid; Cholera-Toxin-Rezeptor.",
     descFr: "Glycosphingolipide acide à acide sialique; récepteur de la toxine cholérique.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O)[C@H]3O)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 20, label: "Sia (purple)", type: "N" },
-        { x: 35, y: 40, label: "Tetrasacharid", type: "O" },
-        { x: 70, y: 40, label: "Ceramid", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 18, "y": 30, "label": "GM1", "type": "C"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 1, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 2, "to": 24, "type": 2}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}]}
   },
   {
     id: 42,
@@ -1365,16 +1022,7 @@ const LIPIDS = [
     descDe: "Einfachstes Gangliosid zur Regulation des Insulinrezeptors.",
     descFr: "Le plus simple des gangliosides régulant le récepteur de l'insuline.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 35, label: "Sia", type: "N" },
-        { x: 35, y: 35, label: "Lac", type: "O" },
-        { x: 65, y: 35, label: "Ceramid", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 18, "y": 30, "label": "GM3", "type": "C"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 1, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 2, "to": 24, "type": 2}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}]}
   },
   {
     id: 43,
@@ -1392,16 +1040,7 @@ const LIPIDS = [
     descDe: "Phospholipid bakterieller Membranen und des Lungensurfactants.",
     descFr: "Phospholipide majeur des bactéries et du surfactant pulmonaire.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(O)CO)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 15, y: 35, label: "Glycerol-head", type: "O" },
-        { x: 40, y: 35, label: "P", type: "P" },
-        { x: 65, y: 35, label: "Glycerol-backbone", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 15, "y": 68, "label": "Glycerol", "type": "C"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 0, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 1, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 2}, {"from": 25, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}]}
   },
   {
     id: 44,
@@ -1769,16 +1408,7 @@ const LIPIDS = [
     descDe: "Prototypisches Phosphatidylcholin der Plasmamembran.",
     descFr: "Espèce prototypique de phosphatidylcholine membranaire.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "Cholin-P", type: "N" },
-        { x: 50, y: 30, label: "sn-1 PA(16:0)", type: "C" },
-        { x: 50, y: 60, label: "sn-2 OA(18:1=)", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "", "type": "C"}, {"x": 8, "y": 59, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 0, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 1, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 2}, {"from": 28, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 2}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}, {"from": 45, "to": 46, "type": 1}]}
   },
   {
     id: 58,
@@ -1796,16 +1426,7 @@ const LIPIDS = [
     descDe: "Arachidonsäurereiche PC-Spezies.",
     descFr: "Espèce PC riche en arachidonate en position sn-2.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "Cholin-P", type: "N" },
-        { x: 50, y: 30, label: "sn-1 SA(18:0)", type: "C" },
-        { x: 50, y: 60, label: "sn-2 AA(20:4=4)", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "", "type": "C"}, {"x": 8, "y": 59, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "", "type": "C"}, {"x": 145.0, "y": 20.0, "label": "", "type": "C"}, {"x": 150.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "", "type": "C"}, {"x": 155.0, "y": 38.0, "label": "", "type": "C"}, {"x": 160.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 0, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 1, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 2}, {"from": 30, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 2}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 2}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 2}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 2}, {"from": 45, "to": 46, "type": 1}, {"from": 46, "to": 47, "type": 1}, {"from": 47, "to": 48, "type": 1}, {"from": 48, "to": 49, "type": 1}, {"from": 49, "to": 50, "type": 1}]}
   },
   {
     id: 59,
@@ -1823,16 +1444,7 @@ const LIPIDS = [
     descDe: "Häufige PE-Spezies (POPE) in der Lipidomik.",
     descFr: "Espèce PE commune (POPE) en lipidomique.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCCN)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "Ethanolamin-P", type: "N" },
-        { x: 50, y: 30, label: "sn-1 (16:0)", type: "C" },
-        { x: 50, y: 60, label: "sn-2 (18:1)", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "NH₃⁺", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 0, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 9, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 1, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 2}, {"from": 27, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 2}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}]}
   },
   {
     id: 60,
@@ -1850,16 +1462,7 @@ const LIPIDS = [
     descDe: "Ether-Plasmalogen im Gehirn mit DHA.",
     descFr: "Plasmalogène PE du cerveau à liaison vinyl-éther et DHA.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "PE-P", type: "N" },
-        { x: 50, y: 30, label: "sn-1 VinylEther", type: "O" },
-        { x: 50, y: 60, label: "sn-2 DHA(22:6)", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "NH₃⁺", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "", "type": "C"}, {"x": 155.0, "y": 38.0, "label": "", "type": "C"}, {"x": 160.0, "y": 31.0, "label": "", "type": "C"}, {"x": 165.0, "y": 38.0, "label": "", "type": "C"}, {"x": 170.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 0, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 9, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 1, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 2}, {"from": 27, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 2}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 2}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 2}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 2}, {"from": 44, "to": 45, "type": 1}, {"from": 45, "to": 46, "type": 1}, {"from": 46, "to": 47, "type": 2}, {"from": 47, "to": 48, "type": 1}, {"from": 48, "to": 49, "type": 1}]}
   },
   {
     id: 61,
@@ -1877,16 +1480,7 @@ const LIPIDS = [
     descDe: "Dominante PS-Spezies in Säugetiergehirnen.",
     descFr: "Espèce majeure de PS dans les neurones de mammifères.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC(N)C(=O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "Serin-P", type: "N" },
-        { x: 50, y: 30, label: "18:0", type: "C" },
-        { x: 50, y: 60, label: "18:1", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "Ser", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "", "type": "C"}, {"x": 145.0, "y": 20.0, "label": "", "type": "C"}, {"x": 150.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 0, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 9, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 1, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 2}, {"from": 29, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 2}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}, {"from": 45, "to": 46, "type": 1}, {"from": 46, "to": 47, "type": 1}]}
   },
   {
     id: 62,
@@ -1904,16 +1498,7 @@ const LIPIDS = [
     descDe: "PI-Spezies in der negativen LC-MS-Analytik.",
     descFr: "Espèce PI mesurée en mode ionique négatif en spectrométrie de masse.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "Inositol-P", type: "P" },
-        { x: 50, y: 30, label: "16:0", type: "C" },
-        { x: 50, y: 60, label: "18:1", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 14, "y": 68, "label": "Inositol", "type": "C"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 0, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 1, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 2}, {"from": 25, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}]}
   },
   {
     id: 63,
@@ -1931,16 +1516,7 @@ const LIPIDS = [
     descDe: "PI3K-Produkt in der Akt/mTOR-Signalkaskade.",
     descFr: "Produit de la PI3K activant la voie Akt/mTOR.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "Inositol-3P", type: "P" },
-        { x: 50, y: 30, label: "16:0", type: "C" },
-        { x: 50, y: 60, label: "18:1", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 14, "y": 68, "label": "PIP₂", "type": "C"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 0, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 2}, {"from": 7, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 1, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 2}, {"from": 25, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}]}
   },
   {
     id: 64,
@@ -1958,16 +1534,7 @@ const LIPIDS = [
     descDe: "Häufigste Sphingomyelin-Spezies der Membran.",
     descFr: "Espèce de sphingomyéline la plus abondante.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "PC-head", type: "N" },
-        { x: 50, y: 30, label: "d18:1 base", type: "C" },
-        { x: 50, y: 60, label: "16:0 fatty acid", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 20, "y": 30, "label": "P", "type": "P"}, {"x": 20, "y": 18, "label": "O⁻", "type": "O"}, {"x": 20, "y": 42, "label": "O", "type": "O"}, {"x": 10, "y": 42, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 1, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 2, "to": 27, "type": 2}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}]}
   },
   {
     id: 65,
@@ -1985,16 +1552,7 @@ const LIPIDS = [
     descDe: "Sehr langkettige SM-Spezies mit Nervonsäure.",
     descFr: "Espèce SM à très longue chaîne avec acide nervonique.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(COP(=O)([O-])OCC[N+](C)(C)C)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "PC-head", type: "N" },
-        { x: 50, y: 30, label: "d18:1 base", type: "C" },
-        { x: 50, y: 60, label: "24:1 (nervonoyl)", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "O", "type": "O"}, {"x": 20, "y": 30, "label": "P", "type": "P"}, {"x": 20, "y": 18, "label": "O⁻", "type": "O"}, {"x": 20, "y": 42, "label": "O", "type": "O"}, {"x": 10, "y": 42, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "", "type": "C"}, {"x": -60.0, "y": 45.0, "label": "", "type": "C"}, {"x": -65.0, "y": 52.0, "label": "", "type": "C"}, {"x": -70.0, "y": 45.0, "label": "", "type": "C"}, {"x": -75.0, "y": 52.0, "label": "", "type": "C"}, {"x": -80.0, "y": 45.0, "label": "", "type": "C"}, {"x": -85.0, "y": 52.0, "label": "", "type": "C"}, {"x": -90.0, "y": 45.0, "label": "", "type": "C"}, {"x": -95.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 1, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 2, "to": 35, "type": 2}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}, {"from": 45, "to": 46, "type": 1}, {"from": 46, "to": 47, "type": 1}, {"from": 47, "to": 48, "type": 1}, {"from": 48, "to": 49, "type": 1}]}
   },
   {
     id: 66,
@@ -2012,16 +1570,7 @@ const LIPIDS = [
     descDe: "Pro-apoptotisches C16-Ceramid.",
     descFr: "C16-céramide pro-apoptotique produit par CerS5/6.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "OH", type: "O" },
-        { x: 50, y: 30, label: "d18:1 base", type: "C" },
-        { x: 50, y: 60, label: "16:0 amide", type: "N" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "OH", "type": "O"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 1, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 2}, {"from": 6, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 2, "to": 23, "type": 2}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}]}
   },
   {
     id: 67,
@@ -2039,16 +1588,7 @@ const LIPIDS = [
     descDe: "Sehr langkettiges C24-Ceramid aus CerS2.",
     descFr: "C24-céramide à très longue chaîne produit par CerS2.",
     smiles: "CCCCCCCCCCCCCC=CC(O)C(CO)NC(=O)CCCCCCCCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "OH", type: "O" },
-        { x: 50, y: 30, label: "d18:1 base", type: "C" },
-        { x: 50, y: 60, label: "24:0 lignoceroyl", type: "N" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 40, "y": 30, "label": "", "type": "C"}, {"x": 40, "y": 45, "label": "", "type": "C"}, {"x": 40, "y": 60, "label": "", "type": "C"}, {"x": 30, "y": 60, "label": "OH", "type": "O"}, {"x": 30, "y": 30, "label": "OH", "type": "O"}, {"x": 30, "y": 45, "label": "NH", "type": "N"}, {"x": 20, "y": 45, "label": "", "type": "C"}, {"x": 20, "y": 57, "label": "O", "type": "O"}, {"x": 15.0, "y": 52.0, "label": "", "type": "C"}, {"x": 10.0, "y": 45.0, "label": "", "type": "C"}, {"x": 5.0, "y": 52.0, "label": "", "type": "C"}, {"x": 0.0, "y": 45.0, "label": "", "type": "C"}, {"x": -5.0, "y": 52.0, "label": "", "type": "C"}, {"x": -10.0, "y": 45.0, "label": "", "type": "C"}, {"x": -15.0, "y": 52.0, "label": "", "type": "C"}, {"x": -20.0, "y": 45.0, "label": "", "type": "C"}, {"x": -25.0, "y": 52.0, "label": "", "type": "C"}, {"x": -30.0, "y": 45.0, "label": "", "type": "C"}, {"x": -35.0, "y": 52.0, "label": "", "type": "C"}, {"x": -40.0, "y": 45.0, "label": "", "type": "C"}, {"x": -45.0, "y": 52.0, "label": "", "type": "C"}, {"x": -50.0, "y": 45.0, "label": "", "type": "C"}, {"x": -55.0, "y": 52.0, "label": "", "type": "C"}, {"x": -60.0, "y": 45.0, "label": "", "type": "C"}, {"x": -65.0, "y": 52.0, "label": "", "type": "C"}, {"x": -70.0, "y": 45.0, "label": "", "type": "C"}, {"x": -75.0, "y": 52.0, "label": "", "type": "C"}, {"x": -80.0, "y": 45.0, "label": "", "type": "C"}, {"x": -85.0, "y": 52.0, "label": "", "type": "C"}, {"x": -90.0, "y": 45.0, "label": "", "type": "C"}, {"x": -95.0, "y": 52.0, "label": "CH₃", "type": "C"}, {"x": 45.0, "y": 67.0, "label": "", "type": "C"}, {"x": 50.0, "y": 60.0, "label": "", "type": "C"}, {"x": 55.0, "y": 67.0, "label": "", "type": "C"}, {"x": 60.0, "y": 60.0, "label": "", "type": "C"}, {"x": 65.0, "y": 67.0, "label": "", "type": "C"}, {"x": 70.0, "y": 60.0, "label": "", "type": "C"}, {"x": 75.0, "y": 67.0, "label": "", "type": "C"}, {"x": 80.0, "y": 60.0, "label": "", "type": "C"}, {"x": 85.0, "y": 67.0, "label": "", "type": "C"}, {"x": 90.0, "y": 60.0, "label": "", "type": "C"}, {"x": 95.0, "y": 67.0, "label": "", "type": "C"}, {"x": 100.0, "y": 60.0, "label": "", "type": "C"}, {"x": 105.0, "y": 67.0, "label": "", "type": "C"}, {"x": 110.0, "y": 60.0, "label": "", "type": "C"}, {"x": 115.0, "y": 67.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 1, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 2}, {"from": 6, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 2, "to": 31, "type": 2}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 1}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}, {"from": 41, "to": 42, "type": 1}, {"from": 42, "to": 43, "type": 1}, {"from": 43, "to": 44, "type": 1}, {"from": 44, "to": 45, "type": 1}]}
   },
   {
     id: 68,
@@ -2066,17 +1606,7 @@ const LIPIDS = [
     descDe: "Spezifische TAG-Spezies (POO) in der MS-Analytik.",
     descFr: "Espèce spécifique de triglycéride (POO).",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 20, label: "16:0", type: "C" },
-        { x: 50, y: 50, label: "Glycerol", type: "C" },
-        { x: 80, y: 20, label: "18:1", type: "C" },
-        { x: 80, y: 80, label: "18:1", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 1, to: 3, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "OH", "type": "O"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 1, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 2}, {"from": 23, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 2}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}]}
   },
   {
     id: 69,
@@ -2094,16 +1624,7 @@ const LIPIDS = [
     descDe: "Lysophosphatidylcholin-Spezies im Blutplasma.",
     descFr: "Lysophosphatidylcholine majeure du plasma sanguin.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 40, label: "Cholin-P", type: "N" },
-        { x: 50, y: 40, label: "Glycerol-OH", type: "C" },
-        { x: 80, y: 40, label: "16:0", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "", "type": "C"}, {"x": 8, "y": 59, "label": "N⁺(CH₃)₃", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "OH", "type": "O"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 0, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 2}, {"from": 10, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 1, "to": 27, "type": 1}]}
   },
   {
     id: 70,
@@ -2121,16 +1642,7 @@ const LIPIDS = [
     descDe: "LPE-Spezies aus der Phospholipase A2-Spaltung.",
     descFr: "Lysophosphatidyléthanolamine produite par la PLA2.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCCN)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 40, label: "PE-P", type: "N" },
-        { x: 50, y: 40, label: "Glycerol-OH", type: "C" },
-        { x: 80, y: 40, label: "18:1", type: "C" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "O", "type": "O"}, {"x": 25, "y": 59, "label": "P", "type": "P"}, {"x": 25, "y": 47, "label": "O⁻", "type": "O"}, {"x": 25, "y": 71, "label": "O", "type": "O"}, {"x": 15, "y": 71, "label": "NH₃⁺", "type": "N"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "", "type": "C"}, {"x": 145.0, "y": 20.0, "label": "", "type": "C"}, {"x": 150.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "OH", "type": "O"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 3, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 2}, {"from": 4, "to": 6, "type": 1}, {"from": 6, "to": 7, "type": 1}, {"from": 0, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 2}, {"from": 9, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 2}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 21, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 1}, {"from": 24, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 1, "to": 28, "type": 1}]}
   },
   {
     id: 71,
@@ -2174,16 +1686,7 @@ const LIPIDS = [
     descDe: "Spezifische Cardiolipin-Molekülspezies in der MS/MS-Analytik.",
     descFr: "Espèce spécifique de cardiolipine à 4 chaînes d'acyle.",
     smiles: "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)OC(=O)CCCCCCCC=CCCCCCCCC",
-    structure: {
-      atoms: [
-        { x: 20, y: 30, label: "P1", type: "P" },
-        { x: 50, y: 50, label: "Central Glycerol", type: "C" },
-        { x: 80, y: 30, label: "P2", type: "P" }
-      ],
-      bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }
-      ]
-    }
+    structure: {"atoms": [{"x": 45, "y": 25, "label": "", "type": "C"}, {"x": 45, "y": 42, "label": "", "type": "C"}, {"x": 45, "y": 59, "label": "", "type": "C"}, {"x": 35, "y": 59, "label": "OH", "type": "O"}, {"x": 55, "y": 25, "label": "O", "type": "O"}, {"x": 65, "y": 20, "label": "", "type": "C"}, {"x": 65, "y": 8, "label": "O", "type": "O"}, {"x": 70.0, "y": 27.0, "label": "", "type": "C"}, {"x": 75.0, "y": 20.0, "label": "", "type": "C"}, {"x": 80.0, "y": 27.0, "label": "", "type": "C"}, {"x": 85.0, "y": 20.0, "label": "", "type": "C"}, {"x": 90.0, "y": 27.0, "label": "", "type": "C"}, {"x": 95.0, "y": 20.0, "label": "", "type": "C"}, {"x": 100.0, "y": 27.0, "label": "", "type": "C"}, {"x": 105.0, "y": 20.0, "label": "", "type": "C"}, {"x": 110.0, "y": 27.0, "label": "", "type": "C"}, {"x": 115.0, "y": 20.0, "label": "", "type": "C"}, {"x": 120.0, "y": 27.0, "label": "", "type": "C"}, {"x": 125.0, "y": 20.0, "label": "", "type": "C"}, {"x": 130.0, "y": 27.0, "label": "", "type": "C"}, {"x": 135.0, "y": 20.0, "label": "", "type": "C"}, {"x": 140.0, "y": 27.0, "label": "CH₃", "type": "C"}, {"x": 55, "y": 42, "label": "O", "type": "O"}, {"x": 65, "y": 38, "label": "", "type": "C"}, {"x": 65, "y": 50, "label": "O", "type": "O"}, {"x": 70.0, "y": 31.0, "label": "", "type": "C"}, {"x": 75.0, "y": 38.0, "label": "", "type": "C"}, {"x": 80.0, "y": 31.0, "label": "", "type": "C"}, {"x": 85.0, "y": 38.0, "label": "", "type": "C"}, {"x": 90.0, "y": 31.0, "label": "", "type": "C"}, {"x": 95.0, "y": 38.0, "label": "", "type": "C"}, {"x": 100.0, "y": 31.0, "label": "", "type": "C"}, {"x": 105.0, "y": 38.0, "label": "", "type": "C"}, {"x": 110.0, "y": 31.0, "label": "", "type": "C"}, {"x": 115.0, "y": 38.0, "label": "", "type": "C"}, {"x": 120.0, "y": 31.0, "label": "", "type": "C"}, {"x": 125.0, "y": 38.0, "label": "", "type": "C"}, {"x": 130.0, "y": 31.0, "label": "", "type": "C"}, {"x": 135.0, "y": 38.0, "label": "", "type": "C"}, {"x": 140.0, "y": 31.0, "label": "", "type": "C"}, {"x": 145.0, "y": 38.0, "label": "", "type": "C"}, {"x": 150.0, "y": 31.0, "label": "CH₃", "type": "C"}], "bonds": [{"from": 0, "to": 1, "type": 1}, {"from": 1, "to": 2, "type": 1}, {"from": 2, "to": 3, "type": 1}, {"from": 0, "to": 4, "type": 1}, {"from": 4, "to": 5, "type": 1}, {"from": 5, "to": 6, "type": 2}, {"from": 5, "to": 7, "type": 1}, {"from": 7, "to": 8, "type": 1}, {"from": 8, "to": 9, "type": 1}, {"from": 9, "to": 10, "type": 1}, {"from": 10, "to": 11, "type": 1}, {"from": 11, "to": 12, "type": 1}, {"from": 12, "to": 13, "type": 1}, {"from": 13, "to": 14, "type": 1}, {"from": 14, "to": 15, "type": 1}, {"from": 15, "to": 16, "type": 1}, {"from": 16, "to": 17, "type": 1}, {"from": 17, "to": 18, "type": 1}, {"from": 18, "to": 19, "type": 1}, {"from": 19, "to": 20, "type": 1}, {"from": 20, "to": 21, "type": 1}, {"from": 1, "to": 22, "type": 1}, {"from": 22, "to": 23, "type": 1}, {"from": 23, "to": 24, "type": 2}, {"from": 23, "to": 25, "type": 1}, {"from": 25, "to": 26, "type": 1}, {"from": 26, "to": 27, "type": 1}, {"from": 27, "to": 28, "type": 1}, {"from": 28, "to": 29, "type": 1}, {"from": 29, "to": 30, "type": 1}, {"from": 30, "to": 31, "type": 1}, {"from": 31, "to": 32, "type": 1}, {"from": 32, "to": 33, "type": 2}, {"from": 33, "to": 34, "type": 1}, {"from": 34, "to": 35, "type": 1}, {"from": 35, "to": 36, "type": 1}, {"from": 36, "to": 37, "type": 1}, {"from": 37, "to": 38, "type": 1}, {"from": 38, "to": 39, "type": 1}, {"from": 39, "to": 40, "type": 1}, {"from": 40, "to": 41, "type": 1}]}
   }
 ];
 
