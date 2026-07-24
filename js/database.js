@@ -33,24 +33,45 @@ const LIPIDS = [
     smiles: "CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4C3(CCC(C4)O)C)C",
     structure: {
       atoms: [
-        { x: 15, y: 50, label: "HO", type: "O" },
-        { x: 28, y: 50, label: "", type: "C" },
-        { x: 38, y: 35, label: "", type: "C" },
-        { x: 50, y: 35, label: "", type: "C" },
-        { x: 60, y: 48, label: "", type: "C" },
-        { x: 50, y: 62, label: "", type: "C" },
-        { x: 38, y: 62, label: "", type: "C" },
-        { x: 72, y: 48, label: "", type: "C" },
-        { x: 82, y: 38, label: "", type: "C" },
-        { x: 75, y: 62, label: "", type: "C" },
-        { x: 92, y: 48, label: "", type: "C" }
+        { x: 12, y: 62, label: "HO", type: "O" }, // 0: 3β-OH
+        { x: 24, y: 62, label: "", type: "C" },   // 1: C3
+        { x: 18, y: 50, label: "", type: "C" },   // 2: C2
+        { x: 24, y: 38, label: "", type: "C" },   // 3: C1
+        { x: 36, y: 38, label: "", type: "C" },   // 4: C10
+        { x: 36, y: 26, label: "", type: "C" },   // 5: C19 (Me)
+        { x: 42, y: 50, label: "", type: "C" },   // 6: C5
+        { x: 36, y: 62, label: "", type: "C" },   // 7: C4
+        { x: 54, y: 50, label: "", type: "C" },   // 8: C6
+        { x: 60, y: 62, label: "", type: "C" },   // 9: C7
+        { x: 66, y: 50, label: "", type: "C" },   // 10: C8
+        { x: 54, y: 38, label: "", type: "C" },   // 11: C9
+        { x: 60, y: 26, label: "", type: "C" },   // 12: C11
+        { x: 72, y: 26, label: "", type: "C" },   // 13: C12
+        { x: 78, y: 38, label: "", type: "C" },   // 14: C13
+        { x: 78, y: 26, label: "", type: "C" },   // 15: C18 (Me)
+        { x: 72, y: 50, label: "", type: "C" },   // 16: C14
+        { x: 84, y: 58, label: "", type: "C" },   // 17: C15
+        { x: 94, y: 50, label: "", type: "C" },   // 18: C16
+        { x: 90, y: 36, label: "", type: "C" },   // 19: C17
+        { x: 100, y: 30, label: "", type: "C" },  // 20: C20
+        { x: 100, y: 18, label: "", type: "C" },  // 21: C21 (Me)
+        { x: 110, y: 36, label: "", type: "C" },  // 22: C22
+        { x: 120, y: 30, label: "", type: "C" },  // 23: C23
+        { x: 130, y: 36, label: "", type: "C" },  // 24: C24
+        { x: 140, y: 30, label: "", type: "C" },  // 25: C25
+        { x: 140, y: 18, label: "", type: "C" },  // 26: C26
+        { x: 148, y: 36, label: "", type: "C" }   // 27: C27
       ],
       bonds: [
         { from: 0, to: 1, type: 1 },
         { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
-        { from: 4, to: 5, type: 2 }, { from: 5, to: 6, type: 1 }, { from: 6, to: 1, type: 1 },
-        { from: 4, to: 7, type: 1 }, { from: 7, to: 8, type: 1 }, { from: 8, to: 10, type: 1 },
-        { from: 10, to: 9, type: 1 }, { from: 9, to: 7, type: 1 }
+        { from: 4, to: 5, type: 1 }, { from: 4, to: 6, type: 1 }, { from: 6, to: 7, type: 1 }, { from: 7, to: 1, type: 1 },
+        { from: 6, to: 8, type: 2 }, { from: 8, to: 9, type: 1 }, { from: 9, to: 10, type: 1 }, { from: 10, to: 11, type: 1 }, { from: 11, to: 4, type: 1 },
+        { from: 11, to: 12, type: 1 }, { from: 12, to: 13, type: 1 }, { from: 13, to: 14, type: 1 }, { from: 14, to: 15, type: 1 },
+        { from: 14, to: 16, type: 1 }, { from: 16, to: 10, type: 1 },
+        { from: 16, to: 17, type: 1 }, { from: 17, to: 18, type: 1 }, { from: 18, to: 19, type: 1 }, { from: 19, to: 14, type: 1 },
+        { from: 19, to: 20, type: 1 }, { from: 20, to: 21, type: 1 }, { from: 20, to: 22, type: 1 }, { from: 22, to: 23, type: 1 },
+        { from: 23, to: 24, type: 1 }, { from: 24, to: 25, type: 1 }, { from: 25, to: 26, type: 1 }, { from: 25, to: 27, type: 1 }
       ]
     }
   },
@@ -408,20 +429,46 @@ const LIPIDS = [
     smiles: "CC(C)C=CC(C)C1CCC2C1(CCC3C2=CC=C4C3(CCC(C4)O)C)C",
     structure: {
       atoms: [
-        { x: 15, y: 50, label: "HO", type: "O" },
-        { x: 28, y: 50, label: "", type: "C" },
-        { x: 38, y: 35, label: "", type: "C" },
-        { x: 50, y: 35, label: "", type: "C" },
-        { x: 60, y: 48, label: "", type: "C" },
-        { x: 50, y: 62, label: "", type: "C" },
-        { x: 72, y: 48, label: "", type: "C" },
-        { x: 82, y: 38, label: "", type: "C" },
-        { x: 92, y: 48, label: "Sidechain=", type: "C" }
+        { x: 12, y: 62, label: "HO", type: "O" }, // 0: 3β-OH
+        { x: 24, y: 62, label: "", type: "C" },   // 1: C3
+        { x: 18, y: 50, label: "", type: "C" },   // 2: C2
+        { x: 24, y: 38, label: "", type: "C" },   // 3: C1
+        { x: 36, y: 38, label: "", type: "C" },   // 4: C10
+        { x: 36, y: 26, label: "", type: "C" },   // 5: C19 (Me)
+        { x: 42, y: 50, label: "", type: "C" },   // 6: C5
+        { x: 36, y: 62, label: "", type: "C" },   // 7: C4
+        { x: 54, y: 50, label: "", type: "C" },   // 8: C6
+        { x: 60, y: 62, label: "", type: "C" },   // 9: C7
+        { x: 66, y: 50, label: "", type: "C" },   // 10: C8
+        { x: 54, y: 38, label: "", type: "C" },   // 11: C9
+        { x: 60, y: 26, label: "", type: "C" },   // 12: C11
+        { x: 72, y: 26, label: "", type: "C" },   // 13: C12
+        { x: 78, y: 38, label: "", type: "C" },   // 14: C13
+        { x: 78, y: 26, label: "", type: "C" },   // 15: C18 (Me)
+        { x: 72, y: 50, label: "", type: "C" },   // 16: C14
+        { x: 84, y: 58, label: "", type: "C" },   // 17: C15
+        { x: 94, y: 50, label: "", type: "C" },   // 18: C16
+        { x: 90, y: 36, label: "", type: "C" },   // 19: C17
+        { x: 100, y: 30, label: "", type: "C" },  // 20: C20
+        { x: 100, y: 18, label: "", type: "C" },  // 21: C21 (Me)
+        { x: 110, y: 36, label: "", type: "C" },  // 22: C22
+        { x: 120, y: 30, label: "", type: "C" },  // 23: C23
+        { x: 130, y: 36, label: "", type: "C" },  // 24: C24
+        { x: 130, y: 48, label: "", type: "C" },  // 25: C28 (Me at C24)
+        { x: 140, y: 30, label: "", type: "C" },  // 26: C25
+        { x: 140, y: 18, label: "", type: "C" },  // 27: C26
+        { x: 148, y: 36, label: "", type: "C" }   // 28: C27
       ],
       bonds: [
-        { from: 0, to: 1, type: 1 }, { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 },
-        { from: 3, to: 4, type: 2 }, { from: 4, to: 5, type: 2 }, { from: 5, to: 1, type: 1 },
-        { from: 4, to: 6, type: 1 }, { from: 6, to: 7, type: 1 }, { from: 7, to: 8, type: 2 }
+        { from: 0, to: 1, type: 1 },
+        { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
+        { from: 4, to: 5, type: 1 }, { from: 4, to: 6, type: 1 }, { from: 6, to: 7, type: 1 }, { from: 7, to: 1, type: 1 },
+        { from: 6, to: 8, type: 2 }, { from: 8, to: 9, type: 1 }, { from: 9, to: 10, type: 2 }, { from: 10, to: 11, type: 1 }, { from: 11, to: 4, type: 1 },
+        { from: 11, to: 12, type: 1 }, { from: 12, to: 13, type: 1 }, { from: 13, to: 14, type: 1 }, { from: 14, to: 15, type: 1 },
+        { from: 14, to: 16, type: 1 }, { from: 16, to: 10, type: 1 },
+        { from: 16, to: 17, type: 1 }, { from: 17, to: 18, type: 1 }, { from: 18, to: 19, type: 1 }, { from: 19, to: 14, type: 1 },
+        { from: 19, to: 20, type: 1 }, { from: 20, to: 21, type: 1 }, { from: 20, to: 22, type: 1 }, { from: 22, to: 23, type: 2 },
+        { from: 23, to: 24, type: 1 }, { from: 24, to: 25, type: 1 }, { from: 24, to: 26, type: 1 }, { from: 26, to: 27, type: 1 }, { from: 26, to: 28, type: 1 }
       ]
     }
   },
@@ -966,12 +1013,37 @@ const LIPIDS = [
     smiles: "CC12CCC(=O)C=C1CCC3C2CCC4(C3CCC4O)C",
     structure: {
       atoms: [
-        { x: 15, y: 40, label: "3=O", type: "O" },
-        { x: 45, y: 40, label: "Steroid Core", type: "C" },
-        { x: 80, y: 40, label: "17β-OH", type: "O" }
+        { x: 12, y: 62, label: "=O", type: "O" },  // 0: 3=O
+        { x: 24, y: 62, label: "", type: "C" },   // 1: C3
+        { x: 18, y: 50, label: "", type: "C" },   // 2: C2
+        { x: 24, y: 38, label: "", type: "C" },   // 3: C1
+        { x: 36, y: 38, label: "", type: "C" },   // 4: C10
+        { x: 36, y: 26, label: "", type: "C" },   // 5: C19 (Me)
+        { x: 42, y: 50, label: "", type: "C" },   // 6: C5
+        { x: 36, y: 62, label: "", type: "C" },   // 7: C4
+        { x: 54, y: 50, label: "", type: "C" },   // 8: C6
+        { x: 60, y: 62, label: "", type: "C" },   // 9: C7
+        { x: 66, y: 50, label: "", type: "C" },   // 10: C8
+        { x: 54, y: 38, label: "", type: "C" },   // 11: C9
+        { x: 60, y: 26, label: "", type: "C" },   // 12: C11
+        { x: 72, y: 26, label: "", type: "C" },   // 13: C12
+        { x: 78, y: 38, label: "", type: "C" },   // 14: C13
+        { x: 78, y: 26, label: "", type: "C" },   // 15: C18 (Me)
+        { x: 72, y: 50, label: "", type: "C" },   // 16: C14
+        { x: 84, y: 58, label: "", type: "C" },   // 17: C15
+        { x: 94, y: 50, label: "", type: "C" },   // 18: C16
+        { x: 90, y: 36, label: "", type: "C" },   // 19: C17
+        { x: 102, y: 30, label: "OH", type: "O" }  // 20: 17β-OH
       ],
       bonds: [
-        { from: 0, to: 1, type: 2 }, { from: 1, to: 2, type: 1 }
+        { from: 0, to: 1, type: 2 },
+        { from: 1, to: 2, type: 1 }, { from: 2, to: 3, type: 1 }, { from: 3, to: 4, type: 1 },
+        { from: 4, to: 5, type: 1 }, { from: 4, to: 6, type: 1 }, { from: 6, to: 7, type: 2 }, { from: 7, to: 1, type: 1 },
+        { from: 6, to: 8, type: 1 }, { from: 8, to: 9, type: 1 }, { from: 9, to: 10, type: 1 }, { from: 10, to: 11, type: 1 }, { from: 11, to: 4, type: 1 },
+        { from: 11, to: 12, type: 1 }, { from: 12, to: 13, type: 1 }, { from: 13, to: 14, type: 1 }, { from: 14, to: 15, type: 1 },
+        { from: 14, to: 16, type: 1 }, { from: 16, to: 10, type: 1 },
+        { from: 16, to: 17, type: 1 }, { from: 17, to: 18, type: 1 }, { from: 18, to: 19, type: 1 }, { from: 19, to: 14, type: 1 },
+        { from: 19, to: 20, type: 1 }
       ]
     }
   },
