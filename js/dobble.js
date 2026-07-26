@@ -81,7 +81,7 @@ function generatePG2_4() {
 
   const lines = [];
   for (let a = 0; a < 4; a++) for (let b = 0; b < 4; b++) lines.push([1, a, b]);
-  for (let a = 0; a < 4; a++) points.push([0, 1, a]);
+  for (let a = 0; a < 4; a++) lines.push([0, 1, a]);
   lines.push([0, 0, 1]);
 
   return lines.map(line => {
@@ -102,7 +102,7 @@ function generatePG2_8() {
 
   const lines = [];
   for (let a = 0; a < 8; a++) for (let b = 0; b < 8; b++) lines.push([1, a, b]);
-  for (let a = 0; a < 8; a++) points.push([0, 1, a]);
+  for (let a = 0; a < 8; a++) lines.push([0, 1, a]);
   lines.push([0, 0, 1]);
 
   return lines.map(line => {
