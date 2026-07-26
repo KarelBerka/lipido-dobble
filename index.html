@@ -60,12 +60,101 @@
             <h1 data-translate="hero_title">Lipido-Dobble s lipidy</h1>
             <p data-translate="hero_desc">Vítejte v interaktivním trenažéru a generátoru karet Dobble pro lipidomiku. Poznávejte mastné kyseliny, fosfolipidy, sfingolipidy, steroly a hmotnostně-spektrometrické molekulární druhy!</p>
             <div class="hero-buttons">
-              <button class="btn btn-primary" onclick="switchTab('game-tab')" data-translate="hero_btn_play">Hrát Hru</button>
-              <button class="btn btn-secondary" onclick="switchTab('generator-tab')" data-translate="hero_btn_print">Tisknout Karty</button>
+              <button class="btn btn-primary" onclick="switchTab('game-tab')" data-translate="hero_btn_play">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                Hrát Hru
+              </button>
+              <button class="btn btn-secondary" onclick="switchTab('generator-tab')" data-translate="hero_btn_print">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="3" x2="9" y2="21"></line><line x1="3" y1="9" x2="21" y2="9"></line></svg>
+                Tisknout Karty
+              </button>
             </div>
           </div>
-          <div style="display: flex; justify-content: center; align-items: center; font-size: 8rem;">
-            🧈
+          <div class="hero-visual">
+            <div class="floating-cards">
+              <div class="visual-card visual-card-1 dobble-card" style="width: 140px; height: 140px;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                  <span style="font-size: 1.4rem; font-weight: 900; color: #d97706; display: block;">Chol</span>
+                  <span style="font-size: 0.8rem; font-weight: 700; color: #475569;">Cholesterol</span>
+                </div>
+              </div>
+              <div class="visual-card visual-card-2 dobble-card" style="width: 140px; height: 140px;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                  <span style="font-size: 1.4rem; font-weight: 900; color: #0284c7; display: block;">PC</span>
+                  <span style="font-size: 0.75rem; font-weight: 700; color: #475569;">Phosphatidylcholin</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-title" style="margin-top: 2.5rem; margin-bottom: 1.25rem;" data-translate="how_title">Jak hra funguje?</h2>
+        <div class="features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+          <div class="feature-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; box-shadow: var(--card-shadow);">
+            <div class="feature-icon" style="font-size: 2.2rem; margin-bottom: 0.75rem;">🃏</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem;" data-translate="feat_math_title">Princíp Dobble</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5;" data-translate="feat_math_desc">Základním matemaktickým principem hry je, že libovolné dvě karty v balíčku sdílejí <strong>přesně jeden</strong> společný prvek. Úkolem hráčů je tuto shodu najít a pojmenovat dříve než soupeři!</p>
+          </div>
+          <div class="feature-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; box-shadow: var(--card-shadow);">
+            <div class="feature-icon" style="font-size: 2.2rem; margin-bottom: 0.75rem;">🧪</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem;" data-translate="feat_meaning_title">Párování podle významu</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5;" data-translate="feat_meaning_desc">Společný prvek se na kartách zobrazuje v odlišných formátech (český/anglický název, 2D strukturní vzorec s cis-konformací, 3D PyMOL model nebo zkratka code3). Trénujete reálnou chemii!</p>
+          </div>
+          <div class="feature-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; box-shadow: var(--card-shadow);">
+            <div class="feature-icon" style="font-size: 2.2rem; margin-bottom: 0.75rem;">🖨️</div>
+            <h3 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 0.5rem;" data-translate="feat_print_title">Flexibilní tisk a export</h3>
+            <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5;" data-translate="feat_print_desc">Přizpůsobte si tvar karet (kulaté / čtvercové), rotaci symbolů, počet karet na stránku (4 až 12 karet na A4) a vytiskněte si připravený výukový balíček na papír.</p>
+          </div>
+        </div>
+
+        <h2 class="section-title" style="margin-bottom: 1.25rem;" data-translate="datasets_title">Dostupné verze balíčků a datasetů</h2>
+        <div class="datasets-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+          <div class="dataset-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; box-shadow: var(--card-shadow);">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 1.8rem;">🧪</span>
+              <span style="font-size: 0.8rem; font-weight: 800; padding: 4px 10px; border-radius: 12px; background: var(--primary-light); color: var(--primary);" data-translate="ds_membrane_tag">q = 3 (13 lipidů)</span>
+            </div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin: 0;" data-translate="ds_membrane_title">1. Membrána</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0; line-height: 1.45;" data-translate="ds_membrane_desc">Základní sada výukového trenažéru určená pro seznámení s hlavním lipidovým složením biologických membrán a klíčovými mastnými kyselinami.</p>
+            <div style="font-size: 0.8rem; color: var(--text-main); font-weight: 600; background: rgba(0,0,0,0.03); padding: 8px 12px; border-radius: 8px;">
+              <strong data-translate="ds_includes">Klíčové molekuly:</strong> Cholesterol, PC, PE, PS, PI, Sphingomyelin, Palmitát, Stearát, Oleát, Ergosterol.
+            </div>
+          </div>
+
+          <div class="dataset-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; box-shadow: var(--card-shadow);">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 1.8rem;">⚡</span>
+              <span style="font-size: 0.8rem; font-weight: 800; padding: 4px 10px; border-radius: 12px; background: var(--primary-light); color: var(--primary);" data-translate="ds_signaling_tag">q = 5 (31 lipidů)</span>
+            </div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin: 0;" data-translate="ds_signaling_title">2. Signalizace</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0; line-height: 1.45;" data-translate="ds_signaling_desc">Rozšířená sada zaměřená na lipidovou signalizaci, eikosanoidy, endocanabinoidy, druhotné posly a steroidní hormony.</p>
+            <div style="font-size: 0.8rem; color: var(--text-main); font-weight: 600; background: rgba(0,0,0,0.03); padding: 8px 12px; border-radius: 8px;">
+              <strong data-translate="ds_includes">Klíčové molekuly:</strong> DAG, IP3, PIP2, Ceramid, S1P, PGE2, TXA2, LTB4, Anandamid, Testosteron, Kortisol.
+            </div>
+          </div>
+
+          <div class="dataset-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; box-shadow: var(--card-shadow);">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 1.8rem;">🗺️</span>
+              <span style="font-size: 0.8rem; font-weight: 800; padding: 4px 10px; border-radius: 12px; background: var(--primary-light); color: var(--primary);" data-translate="ds_atlas_tag">q = 7 (57 lipidů)</span>
+            </div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin: 0;" data-translate="ds_atlas_title">3. LIPID MAPS Atlas</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0; line-height: 1.45;" data-translate="ds_atlas_desc">Komplexní atlas výuky lipidomiky pokrývající všech 5 hlavních tříd lipidů (FA, GP, SP, ST, GL) a vitamíny rozpustné v tucích.</p>
+            <div style="font-size: 0.8rem; color: var(--text-main); font-weight: 600; background: rgba(0,0,0,0.03); padding: 8px 12px; border-radius: 8px;">
+              <strong data-translate="ds_includes">Klíčové molekuly:</strong> EPA, DHA, TAG, MAG, Gangliosidy GM1/GM3, Skvalen, CoQ10, Vitamíny A, D3, E, Progesteron.
+            </div>
+          </div>
+
+          <div class="dataset-card" style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem; box-shadow: var(--card-shadow);">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 1.8rem;">🔬</span>
+              <span style="font-size: 0.8rem; font-weight: 800; padding: 4px 10px; border-radius: 12px; background: var(--primary-light); color: var(--primary);" data-translate="ds_massspec_tag">q = 8 (73 druhů)</span>
+            </div>
+            <h3 style="font-size: 1.15rem; font-weight: 800; margin: 0;" data-translate="ds_massspec_title">4. Mass Spec Nightmare</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0; line-height: 1.45;" data-translate="ds_massspec_desc">Expertní sada určená pro pokročilé studenty a analytiky hmotnostní spektrometrie obsahující konkrétní molekulární druhy lipidů.</p>
+            <div style="font-size: 0.8rem; color: var(--text-main); font-weight: 600; background: rgba(0,0,0,0.03); padding: 8px 12px; border-radius: 8px;">
+              <strong data-translate="ds_includes">Klíčové molekuly:</strong> PC(16:0/18:1), PE(P-16:0/22:6), SM(d18:1/24:1), Cer(d18:1/24:0), TAG(52:2), CL(68:2).
+            </div>
           </div>
         </div>
       </section>
